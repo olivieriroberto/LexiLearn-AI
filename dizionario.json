@@ -1,0 +1,3231 @@
+[
+ {
+  "tipo": "termine",
+  "direzione": "it>en",
+  "lemma": "there are 4 of them",
+  "forma_prof": "sono in 4 - there are 4 of them",
+  "traduzione_prof": "sono in 4",
+  "traduzione": "there are 4 of them",
+  "definizione": "modo di rendere in inglese la costruzione italiana 'essere in + numero'",
+  "blocchi": [
+   0
+  ],
+  "confidenza": 0.85,
+  "stato": "pubblicata"
+ },
+ {
+  "tipo": "coppia",
+  "direzione": "en>it",
+  "elementi": [
+   "early bird",
+   "night owl"
+  ],
+  "forma_prof": "Early bird - / Night owls -",
+  "differenza": "'early bird' è chi preferisce le ore mattutine; 'night owl' è chi è più produttivo o attivo di notte",
+  "blocchi": [
+   1,
+   2
+  ],
+  "confidenza": 0.88,
+  "stato": "pubblicata",
+  "note": "entrambe le spiegazioni dopo il trattino mancano negli appunti; i due termini hanno senso come coppia contrapposta"
+ },
+ {
+  "tipo": "phrasal_verb",
+  "direzione": "en>it",
+  "lemma": "to end up",
+  "forma_prof": "TO END UP - va a finire",
+  "traduzione_prof": "va a finire",
+  "traduzione": "finire per (fare qualcosa), ritrovarsi a",
+  "definizione": "giungere a una situazione o risultato, spesso inaspettato",
+  "blocchi": [
+   3
+  ],
+  "confidenza": 0.95,
+  "stato": "pubblicata"
+ },
+ {
+  "tipo": "phrasal_verb",
+  "direzione": "en>it",
+  "lemma": "to come up",
+  "forma_prof": "TO COME UP - venire fuori con",
+  "traduzione_prof": "venire fuori con",
+  "traduzione": "saltar fuori, presentarsi (di un problema o argomento); in altro contesto: venire su con un'idea",
+  "definizione": "presentarsi inaspettatamente, emergere (detto di problemi, argomenti, opportunità)",
+  "esempi": [
+   "if something comes up"
+  ],
+  "blocchi": [
+   5,
+   10
+  ],
+  "confidenza": 0.9,
+  "stato": "pubblicata"
+ },
+ {
+  "tipo": "coppia",
+  "direzione": "en>it",
+  "elementi": [
+   "client",
+   "customer"
+  ],
+  "forma_prof": "CLIENT / CUSTOMER - long term relationship",
+  "differenza": "'client' indica un professionista o azienda che usufruisce di servizi specializzati e ha spesso un rapporto continuativo; 'customer' è il cliente di un negozio o servizio generico, con relazione meno duratura",
+  "note": "il blocco 7 associa 'customer' a 'long term relationship', ma nella distinzione classica è 'client' ad avere la relazione a lungo termine; possibile che la prof stesse discutendo l'uso in contesto specifico",
+  "blocchi": [
+   6,
+   7
+  ],
+  "confidenza": 0.8,
+  "stato": "pubblicata"
+ },
+ {
+  "tipo": "termine",
+  "direzione": "en>it",
+  "lemma": "to provide",
+  "forma_prof": "TO PROVIDE - fornire",
+  "traduzione_prof": "fornire",
+  "definizione": "mettere a disposizione, fornire qualcosa a qualcuno",
+  "blocchi": [
+   8
+  ],
+  "confidenza": 0.95,
+  "stato": "pubblicata"
+ },
+ {
+  "tipo": "termine",
+  "direzione": "en>it",
+  "lemma": "approval",
+  "forma_prof": "Approval",
+  "traduzione": "approvazione",
+  "definizione": "atto di approvare, consenso formale o informale",
+  "ipa": "əˈpruːvəl",
+  "blocchi": [
+   9
+  ],
+  "confidenza": 0.75,
+  "stato": "pubblicata",
+  "note": "termine isolato senza contesto; probabilmente legato al discorso su client/customer o to provide"
+ },
+ {
+  "tipo": "espressione",
+  "direzione": "en>it",
+  "lemma": "work smoothly",
+  "forma_prof": "work smoothly / make sure that everything smoothly",
+  "traduzione": "funzionare senza intoppi",
+  "definizione": "procedere o far procedere qualcosa in modo fluido e senza problemi",
+  "esempi": [
+   "make sure that everything works smoothly"
+  ],
+  "blocchi": [
+   11,
+   12
+  ],
+  "confidenza": 0.85,
+  "stato": "pubblicata",
+  "note": "il blocco 12 manca del verbo 'works'; forma corretta: 'make sure that everything works smoothly'"
+ },
+ {
+  "tipo": "espressione",
+  "direzione": "en>it",
+  "lemma": "so far",
+  "forma_prof": "so far, how are things going?",
+  "traduzione": "finora, fino ad ora",
+  "definizione": "espressione avverbiale che indica il periodo di tempo trascorso fino al momento attuale",
+  "esempi": [
+   "so far, how are things going?"
+  ],
+  "blocchi": [
+   14
+  ],
+  "confidenza": 0.92,
+  "stato": "pubblicata"
+ },
+ {
+  "tipo": "coppia",
+  "direzione": "en>it",
+  "lemma": "to fix / resolve / solve",
+  "forma_prof": "fix / resolve / solve",
+  "traduzione": "risolvere",
+  "differenza": "sinonimi con sfumature: 'fix' è più informale e pratico; 'resolve' è più formale e implica trovare una soluzione definitiva; 'solve' è neutro e si usa per problemi con una soluzione logica",
+  "esempi": [
+   "I have been able to fix / resolve / solve them every time"
+  ],
+  "blocchi": [
+   16
+  ],
+  "confidenza": 0.9,
+  "stato": "pubblicata",
+  "elementi": [
+   "fix",
+   "resolve",
+   "solve"
+  ]
+ },
+ {
+  "tipo": "collocazione",
+  "direzione": "en>it",
+  "lemma": "depend on",
+  "forma_prof": "It depends ON the results of the tests we are doing / RUNNING today",
+  "traduzione": "dipendere da",
+  "definizione": "la preposizione corretta dopo 'depend' è 'on'",
+  "esempi": [
+   "It depends ON the results of the tests we are running today",
+   "What does it depend ON?",
+   "It depends ON the place she is working at on that day"
+  ],
+  "blocchi": [
+   17,
+   123,
+   124
+  ],
+  "confidenza": 0.97,
+  "stato": "pubblicata",
+  "note": "il blocco insegna anche la collocazione 'run tests' (eseguire test), alternativa a 'do tests'"
+ },
+ {
+  "tipo": "collocazione",
+  "direzione": "en>it",
+  "lemma": "run tests",
+  "forma_prof": "doing / RUNNING today",
+  "traduzione": "eseguire test",
+  "definizione": "collocazione preferita in inglese: 'run tests' anziché 'do tests'",
+  "blocchi": [
+   17
+  ],
+  "confidenza": 0.85,
+  "stato": "pubblicata"
+ },
+ {
+  "tipo": "phrasal_verb",
+  "direzione": "en>it",
+  "lemma": "to look forward to",
+  "forma_prof": "**TO LOOK FORWARD TO SOMETHING**",
+  "traduzione": "non vedere l'ora di, aspettare con ansia (positiva)",
+  "definizione": "attendere qualcosa con entusiasmo e aspettativa positiva; seguito da sostantivo o gerundio",
+  "esempi": [
+   "Are you looking forward to their departure?",
+   "I always look forward to S's arrival",
+   "I am looking forward TO GOING on holiday"
+  ],
+  "blocchi": [
+   18,
+   20,
+   22,
+   23,
+   26
+  ],
+  "confidenza": 0.98,
+  "stato": "pubblicata",
+  "note": "il grassetto nel blocco 22 indica enfasi didattica; il blocco 20 'look forward' è la forma base richiamata prima della struttura completa"
+ },
+ {
+  "tipo": "espressione",
+  "direzione": "en>it",
+  "lemma": "as I've said / mentioned",
+  "forma_prof": "As I've said / mentioned",
+  "traduzione": "come ho detto / come ho già menzionato",
+  "definizione": "espressione di raccordo per richiamare qualcosa di già detto",
+  "blocchi": [
+   19
+  ],
+  "confidenza": 0.88,
+  "stato": "pubblicata"
+ },
+ {
+  "tipo": "coppia",
+  "direzione": "en>it",
+  "elementi": [
+   "before",
+   "forehead"
+  ],
+  "forma_prof": "before / forehead",
+  "differenza": "'before' è preposizione/avverbio di tempo ('prima'); 'forehead' è il sostantivo 'fronte' (parte del viso). Si confondono per assonanza",
+  "blocchi": [
+   21
+  ],
+  "confidenza": 0.82,
+  "stato": "pubblicata",
+  "note": "probabilmente citati per contrasto fonetico o ortografico; contesto non esplicitato negli appunti"
+ },
+ {
+  "tipo": "espressione",
+  "direzione": "en>it",
+  "lemma": "I can't wait",
+  "forma_prof": "**I can't wait** - non vedo l'ora",
+  "traduzione_prof": "non vedo l'ora",
+  "traduzione": "non vedo l'ora, non vedo l'ora che arrivi",
+  "definizione": "espressione colloquiale per indicare forte attesa e entusiasmo; sinonimo informale di 'to look forward to'",
+  "blocchi": [
+   24,
+   25
+  ],
+  "confidenza": 0.98,
+  "stato": "pubblicata",
+  "esempi": [
+   "I can't wait TO GO on holiday / vacation"
+  ]
+ },
+ {
+  "tipo": "coppia",
+  "direzione": "en>it",
+  "elementi": [
+   "vacation",
+   "holiday"
+  ],
+  "traduzione_prof": "vacation - American / holiday - British",
+  "differenza": "vacation (AmE) e holiday (BrE) indicano entrambi le ferie/vacanze; in BrE 'holiday' è il termine corrente, in AmE 'vacation' è preferito per le ferie, mentre 'holiday' indica una festa nazionale",
+  "blocchi": [
+   27,
+   28
+  ],
+  "confidenza": 0.97,
+  "stato": "pubblicata"
+ },
+ {
+  "tipo": "coppia",
+  "direzione": "en>it",
+  "elementi": [
+   "rubber",
+   "eraser"
+  ],
+  "traduzione_prof": "gomma - material - condom - British",
+  "traduzione": "rubber (BrE) = gomma da cancellare (ma anche: preservativo in accezione colloquiale BrE); eraser (AmE/neutro) = gomma da cancellare",
+  "differenza": "rubber in BrE indica la gomma da cancellare ma ha anche la connotazione colloquiale di preservativo; eraser è il termine neutro/AmE privo di ambiguità",
+  "blocchi": [
+   29,
+   30
+  ],
+  "confidenza": 0.95,
+  "stato": "pubblicata"
+ },
+ {
+  "tipo": "termine",
+  "direzione": "en>it",
+  "lemma": "to erase",
+  "forma_prof": "TO ERASE",
+  "traduzione_prof": "cancellare",
+  "ipa": "ɪˈreɪz",
+  "blocchi": [
+   31
+  ],
+  "confidenza": 0.95,
+  "stato": "pubblicata"
+ },
+ {
+  "tipo": "termine",
+  "direzione": "en>it",
+  "lemma": "to rub",
+  "forma_prof": "TO RUB",
+  "traduzione_prof": "strofinare",
+  "ipa": "rʌb",
+  "blocchi": [
+   32
+  ],
+  "confidenza": 0.95,
+  "stato": "pubblicata"
+ },
+ {
+  "tipo": "espressione",
+  "direzione": "en>it",
+  "lemma": "whether we like it or not",
+  "forma_prof": "whether we like it or not",
+  "traduzione": "che ci piaccia o no",
+  "definizione": "espressione idiomatica che indica che qualcosa avverrà indipendentemente dalla preferenza di chi parla",
+  "blocchi": [
+   33
+  ],
+  "confidenza": 0.8,
+  "stato": "pubblicata",
+  "note": "Blocco senza contesto aggiuntivo; potrebbe essere un esempio di 'to dread' o una voce autonoma. Confidenza media."
+ },
+ {
+  "tipo": "termine",
+  "direzione": "en>it",
+  "lemma": "to dread",
+  "forma_prof": "TO DREAD",
+  "traduzione_prof": "mi manca l'anima",
+  "traduzione": "temere moltissimo, avere il terrore di qualcosa",
+  "definizione": "provare una forte apprensione o paura anticipatoria verso qualcosa; regge sia il nome sia il gerundio",
+  "ipa": "drɛd",
+  "esempi": [
+   "I dread his arrival",
+   "I dread calling him"
+  ],
+  "blocchi": [
+   34,
+   35,
+   36
+  ],
+  "confidenza": 0.95,
+  "stato": "pubblicata",
+  "divergenza": true,
+  "note": "La traduzione della prof ('mi manca l'anima') è un'espressione colloquiale italiana molto intensa; 'to dread' copre uno spettro più ampio che va da forte apprensione a terrore. Segnalato divergenza."
+ },
+ {
+  "tipo": "coppia",
+  "direzione": "en>it",
+  "elementi": [
+   "noise",
+   "nosey"
+  ],
+  "traduzione_prof": "Noise - rumore / Nosey - he's so nosey",
+  "differenza": "noise = rumore (sostantivo); nosey = ficcanaso (aggettivo, da 'nose' = naso) — simili per grafia ma diversi per categoria grammaticale e significato",
+  "definizione": "noise: suono sgradevole o forte; nosey: curioso in modo invadente, che mette il naso negli affari altrui",
+  "esempi": [
+   "What is this noise?",
+   "The room was very noisy (full of noise)",
+   "He's so nosey",
+   "She was extremely, impossibly nosey"
+  ],
+  "blocchi": [
+   37,
+   38,
+   39,
+   40,
+   41,
+   43
+  ],
+  "confidenza": 0.92,
+  "stato": "pubblicata",
+  "note": "Il blocco 43 contiene un refuso ('impossible' invece di 'impossibly'); normalizzato nell'esempio. Il blocco 42 ('my so called friend') sembra un esempio d'uso separato e non direttamente collegato."
+ },
+ {
+  "tipo": "coppia",
+  "direzione": "en>it",
+  "elementi": [
+   "noise",
+   "nose"
+  ],
+  "differenza": "Noise = rumore; nose = naso. Simili nella pronuncia, diversi nel significato.",
+  "ipa": "/nɔɪz/ vs /nəʊz/",
+  "blocchi": [
+   40
+  ],
+  "confidenza": 0.95,
+  "stato": "pubblicata"
+ },
+ {
+  "tipo": "termine",
+  "direzione": "en>it",
+  "lemma": "nosey",
+  "forma_prof": "Nosey",
+  "traduzione_prof": "he's so nosey",
+  "traduzione": "ficcanaso, impiccione",
+  "definizione": "aggettivo informale che descrive una persona eccessivamente curiosa degli affari altrui",
+  "ipa": "/ˈnəʊzi/",
+  "esempi": [
+   "He's so nosey.",
+   "She was extremely, impossibly nosey.",
+   "she should mind her own business"
+  ],
+  "blocchi": [
+   41,
+   43,
+   372,
+   373
+  ],
+  "confidenza": 0.95,
+  "stato": "pubblicata",
+  "note": "Il blocco 43 contiene un refuso ('impossible' per 'impossibly') normalizzato nell'esempio.",
+  "vedi_anche": "noise/nosey"
+ },
+ {
+  "tipo": "espressione",
+  "direzione": "en>it",
+  "lemma": "so-called",
+  "forma_prof": "my so call friend",
+  "traduzione": "il mio cosiddetto amico",
+  "definizione": "aggettivo che esprime scetticismo o ironia rispetto alla qualifica attribuita a qualcuno o qualcosa",
+  "esempi": [
+   "my so-called friend",
+   "My so-called friend."
+  ],
+  "blocchi": [
+   42
+  ],
+  "confidenza": 0.85,
+  "stato": "pubblicata",
+  "note": "Refuso nella forma_prof: 'so call' invece di 'so-called'. Blocco isolato, potrebbe essere un esempio di 'nosey' piuttosto che una voce autonoma, ma l'espressione merita estrazione separata."
+ },
+ {
+  "tipo": "termine",
+  "direzione": "en>it",
+  "lemma": "to annoy",
+  "forma_prof": "TO ANNOY",
+  "traduzione_prof": "infastidire",
+  "ipa": "əˈnɔɪ",
+  "blocchi": [
+   44
+  ],
+  "confidenza": 0.99,
+  "stato": "pubblicata",
+  "note": "Blocco in coda alla finestra, potrebbe continuare nel gruppo successivo. Confidenza leggermente ridotta."
+ },
+ {
+  "tipo": "regola",
+  "direzione": "en>it",
+  "titolo": "Aggettivi in -ING vs aggettivi in -ED",
+  "spiegazione": "Gli aggettivi in -ING (boring, interesting, annoying) descrivono come qualcosa o qualcuno è, ovvero la caratteristica oggettiva. Gli aggettivi in -ED (bored, interested, annoyed) descrivono come una persona si sente.",
+  "esempi": [
+   "He is annoying. (è una persona fastidiosa)",
+   "He is annoyed. (si sente infastidito)",
+   "This noise is annoying.",
+   "I am bored stiff."
+  ],
+  "blocchi": [
+   45,
+   46,
+   47,
+   48,
+   50,
+   52
+  ],
+  "confidenza": 0.99,
+  "stato": "pubblicata"
+ },
+ {
+  "tipo": "termine",
+  "direzione": "en>it",
+  "lemma": "friggin",
+  "forma_prof": "friggin",
+  "traduzione": "cazzo di, dannato (eufemismo colloquiale per 'fucking')",
+  "definizione": "Eufemismo colloquiale intensificatore, versione attenuata di 'fucking'.",
+  "ipa": "ˈfrɪɡɪn",
+  "blocchi": [
+   49
+  ],
+  "confidenza": 0.72,
+  "stato": "pubblicata",
+  "note": "Il blocco non ha spiegazione della prof; estratto dal contesto 'It's so friggin precise'. Potrebbe essere un commento della prof su una frase letta, non una voce didattica intenzionale. Confidenza moderata."
+ },
+ {
+  "tipo": "espressione",
+  "direzione": "en>it",
+  "lemma": "bored stiff",
+  "traduzione": "annoiato da morire, annoiato a morte",
+  "definizione": "espressione enfatica per indicare un livello estremo di noia",
+  "esempi": [
+   "I am bored stiff!"
+  ],
+  "blocchi": [
+   53
+  ],
+  "confidenza": 0.97,
+  "stato": "pubblicata"
+ },
+ {
+  "tipo": "collocazione",
+  "direzione": "en>it",
+  "lemma": "interested in",
+  "forma_prof": "What are you interested in football, staying = hanging out with my friends",
+  "traduzione": "essere interessato a qualcosa",
+  "definizione": "la preposizione che segue 'interested' è IN; può reggere un sostantivo o un gerundio",
+  "esempi": [
+   "What are you interested in?",
+   "I'm interested in football.",
+   "I'm interested in hanging out with my friends.",
+   "I am interested in many things."
+  ],
+  "blocchi": [
+   54,
+   57,
+   350
+  ],
+  "confidenza": 0.99,
+  "stato": "pubblicata"
+ },
+ {
+  "tipo": "collocazione",
+  "lemma": "stiff",
+  "forma_prof": "STIFF / RIGID",
+  "traduzione_prof": "You could have a STIFF / RIGID neck",
+  "traduzione": "rigido",
+  "definizione": "Usato per descrivere un collo dolorante e poco mobile; 'stiff neck' è la collocazione naturale in inglese",
+  "esempi": [
+   "You could have a stiff neck",
+   "My legs / joints are stiff."
+  ],
+  "blocchi": [
+   55,
+   325
+  ],
+  "confidenza": 0.95,
+  "stato": "pubblicata",
+  "note": "La prof mette stiff e rigid come sinonimi in questo contesto; 'stiff neck' è però la collocazione idiomatica preferita.",
+  "direzione": "en>it"
+ },
+ {
+  "tipo": "termine",
+  "direzione": "en>it",
+  "lemma": "stiffly",
+  "forma_prof": "STIFFLY",
+  "traduzione": "rigidamente",
+  "definizione": "avverbio derivato da stiff",
+  "ipa": "/ˈstɪfli/",
+  "blocchi": [
+   56
+  ],
+  "confidenza": 0.88,
+  "stato": "pubblicata"
+ },
+ {
+  "tipo": "espressione",
+  "direzione": "en>it",
+  "lemma": "such as",
+  "forma_prof": "SUCH AS",
+  "traduzione": "come, ad esempio (con più di due elementi)",
+  "definizione": "locuzione usata per introdurre esempi quando sono più di due",
+  "esempi": [
+   "I am interested in many things, such as cooking, reading and travelling."
+  ],
+  "blocchi": [
+   57
+  ],
+  "confidenza": 0.95,
+  "stato": "pubblicata"
+ },
+ {
+  "tipo": "espressione",
+  "direzione": "en>it",
+  "lemma": "to be on top",
+  "forma_prof": "TO BE ON TOP",
+  "traduzione": "essere al top, eccellere, avere il controllo",
+  "definizione": "espressione idiomatica che indica eccellere in qualcosa o essere in cima",
+  "blocchi": [
+   58
+  ],
+  "confidenza": 0.65,
+  "stato": "pubblicata",
+  "note": "Il blocco è isolato, senza contesto aggiuntivo. Potrebbe essere collegato al blocco successivo (good at) come contrasto o sinonimo. Confidenza bassa per mancanza di contesto."
+ },
+ {
+  "tipo": "collocazione",
+  "direzione": "en>it",
+  "lemma": "good at",
+  "forma_prof": "I'm not very good AT this vocabulary",
+  "traduzione": "essere bravo in qualcosa",
+  "definizione": "la preposizione corretta che segue 'good' quando si indica abilità in qualcosa è AT",
+  "esempi": [
+   "I'm not very good at this vocabulary.",
+   "What are you good at?",
+   "Are you good at cooking?"
+  ],
+  "blocchi": [
+   59,
+   349
+  ],
+  "confidenza": 0.99,
+  "stato": "pubblicata"
+ },
+ {
+  "tipo": "espressione",
+  "direzione": "en>it",
+  "lemma": "not too much / not particularly",
+  "forma_prof": "not too much / particularly",
+  "traduzione": "non molto / non particolarmente",
+  "definizione": "espressioni per esprimere un interesse o una qualità moderata o scarsa",
+  "blocchi": [
+   60
+  ],
+  "confidenza": 0.88,
+  "note": "il blocco sembra un frammento di risposta a una domanda; 'particularly' probabilmente usato da solo come 'not particularly'"
+ },
+ {
+  "tipo": "espressione",
+  "direzione": "it>en",
+  "lemma": "to manage to",
+  "forma_prof": "Riesco a preparare",
+  "traduzione": "riuscire a fare qualcosa",
+  "definizione": "to manage to + infinito: riuscire a compiere un'azione",
+  "esempi": [
+   "I manage to cook.",
+   "I managed to fix it.",
+   "I manage to prepare a good meal"
+  ],
+  "blocchi": [
+   61,
+   65,
+   66,
+   73,
+   75
+  ],
+  "confidenza": 0.95,
+  "stato": "pubblicata",
+  "note": "Il blocco 61 è in italiano; la resa inglese non è esplicitata ma si ricollega a 'to be able to' nel blocco 64 e al contesto di cooking. Direzione it>en.",
+  "vedi_anche": "to be able to/to manage to"
+ },
+ {
+  "tipo": "espressione",
+  "direzione": "en>it",
+  "lemma": "to put effort into doing something",
+  "forma_prof": "TO PUT SOME EFFORT INTO DOING",
+  "traduzione": "impegnarsi a fare qualcosa, mettere impegno nel fare qualcosa",
+  "definizione": "espressione che indica dedicare energia o impegno a un'attività",
+  "esempi": [
+   "You need to put some effort into cooking."
+  ],
+  "blocchi": [
+   62
+  ],
+  "confidenza": 0.95,
+  "stato": "pubblicata"
+ },
+ {
+  "tipo": "termine",
+  "direzione": "en>it",
+  "lemma": "cooking appliance",
+  "forma_prof": "COOKING APPLIANCE",
+  "traduzione_prof": "elettrodomestico",
+  "traduzione": "elettrodomestico da cucina",
+  "definizione": "dispositivo o apparecchio elettrico usato in cucina",
+  "esempi": [
+   "Not particularly, but with the help of some cooking appliances, I manage to prepare a good meal"
+  ],
+  "blocchi": [
+   63,
+   75
+  ],
+  "confidenza": 0.97
+ },
+ {
+  "tipo": "espressione",
+  "direzione": "en>it",
+  "lemma": "to be able to",
+  "forma_prof": "I was able to fix it",
+  "traduzione": "riuscire a, essere in grado di",
+  "definizione": "modale alternativo a 'can/could', usato per indicare capacità o riuscita in una situazione specifica",
+  "esempi": [
+   "I was able to fix it."
+  ],
+  "blocchi": [
+   64
+  ],
+  "confidenza": 0.9,
+  "stato": "pubblicata",
+  "vedi_anche": "to be able to/to manage to"
+ },
+ {
+  "tipo": "coppia",
+  "direzione": "en>it",
+  "elementi": [
+   "to be able to",
+   "to manage to"
+  ],
+  "forma_prof": "I was able to fix it / I managed to fix it",
+  "traduzione": "essere in grado di / riuscire a",
+  "differenza": "'to be able to' indica capacità generica; 'to manage to' suggerisce che c'è stato uno sforzo o una difficoltà superata per riuscire nell'azione",
+  "esempi": [
+   "I was able to fix it",
+   "I managed to fix it"
+  ],
+  "blocchi": [
+   64,
+   65,
+   66
+  ],
+  "confidenza": 0.9
+ },
+ {
+  "tipo": "coppia",
+  "direzione": "en>it",
+  "elementi": [
+   "rookie",
+   "newbie"
+  ],
+  "forma_prof": "Rookie - newbie",
+  "traduzione": "principiante, novellino",
+  "differenza": "sinonimi quasi perfetti; 'rookie' è più comune in contesti sportivi e lavorativi americani, 'newbie' è più usato in contesti informatici e online",
+  "ipa": "ˈrʊki",
+  "blocchi": [
+   67
+  ],
+  "confidenza": 0.9
+ },
+ {
+  "tipo": "termine",
+  "direzione": "en>it",
+  "lemma": "senior partner",
+  "forma_prof": "senior partner",
+  "traduzione": "socio anziano / partner senior",
+  "definizione": "membro esperto e di alto rango in uno studio professionale o in un'azienda",
+  "blocchi": [
+   68
+  ],
+  "confidenza": 0.75,
+  "note": "blocco isolato senza contesto esplicito; probabilmente usato come esempio di 'senior' in opposizione a 'rookie'"
+ },
+ {
+  "tipo": "phrasal_verb",
+  "direzione": "en>it",
+  "lemma": "to grasp",
+  "forma_prof": "TO GRASP - afferrare",
+  "traduzione_prof": "afferrare",
+  "traduzione": "afferrare (fisicamente o concettualmente: capire, cogliere)",
+  "definizione": "afferrare qualcosa con la mano, oppure comprendere un concetto",
+  "ipa": "ɡrɑːsp",
+  "blocchi": [
+   69
+  ],
+  "confidenza": 0.9
+ },
+ {
+  "tipo": "termine",
+  "direzione": "en>it",
+  "lemma": "well preserved",
+  "forma_prof": "well preseverd",
+  "traduzione": "ben conservato",
+  "definizione": "detto di persona o cosa che ha mantenuto buone condizioni nel tempo",
+  "blocchi": [
+   70
+  ],
+  "confidenza": 0.8,
+  "note": "refuso nel blocco originale: 'preseverd' → 'preserved'"
+ },
+ {
+  "tipo": "regola",
+  "titolo": "manager vs. to manage",
+  "spiegazione": "'manager' è un falso amico parziale: in inglese indica chi dirige un'azienda o un reparto, non chi 'riesce a fare' qualcosa. Il verbo 'to manage' invece significa riuscire a fare qualcosa (spesso con fatica). Non confondere il sostantivo con il verbo.",
+  "esempi": [
+   "He is a manager (= è un dirigente)",
+   "I managed to fix it (= sono riuscito a ripararlo)"
+  ],
+  "blocchi": [
+   71,
+   72,
+   73
+  ],
+  "confidenza": 0.9
+ },
+ {
+  "tipo": "espressione",
+  "direzione": "en>it",
+  "lemma": "straight out of",
+  "forma_prof": "Straight out of appena",
+  "traduzione_prof": "appena",
+  "traduzione": "appena uscito da, direttamente da",
+  "definizione": "esprime provenienza immediata o recente da un luogo o situazione",
+  "esempi": [
+   "Straight out of college (= appena uscito dal college)"
+  ],
+  "blocchi": [
+   74
+  ],
+  "confidenza": 0.8,
+  "note": "la prof affianca 'appena' come traduzione; il blocco è frammentario ma il senso è chiaro"
+ },
+ {
+  "tipo": "espressione",
+  "direzione": "en>it",
+  "lemma": "one at a time",
+  "forma_prof": "One at a time",
+  "traduzione": "uno alla volta",
+  "definizione": "espressione usata per indicare che si fa o si affronta una cosa per volta",
+  "blocchi": [
+   76
+  ],
+  "confidenza": 0.95
+ },
+ {
+  "tipo": "espressione",
+  "direzione": "en>it",
+  "lemma": "bucket list",
+  "forma_prof": "What is at the TOP OF YOUR BUCKET LIST now / at the moment",
+  "traduzione": "lista delle cose da fare prima di morire",
+  "definizione": "lista di esperienze o obiettivi che una persona vuole realizzare nel corso della vita",
+  "esempi": [
+   "What is at the top of your bucket list at the moment?",
+   "it's a list of all the things you want to do before you die",
+   "not yet, but it's on my bucket list",
+   "It's not on my bucket list"
+  ],
+  "blocchi": [
+   77,
+   80,
+   81,
+   104,
+   105,
+   106,
+   109
+  ],
+  "confidenza": 0.99,
+  "note": "il blocco 80 spiega l'etimologia ('bucket = secchio'); il blocco 81 'TO DIE -' è il collegamento alla locuzione 'to kick the bucket' (morire), da cui deriva 'bucket list'; collegato anche al gruppo 81-84 sui modi di morire",
+  "stato": "in_attesa"
+ },
+ {
+  "tipo": "espressione",
+  "direzione": "en>it",
+  "lemma": "if it were for me",
+  "forma_prof": "If it were for me",
+  "traduzione": "se dipendesse da me",
+  "definizione": "espressione ipotetica al congiuntivo passato per indicare una preferenza personale",
+  "blocchi": [
+   78
+  ],
+  "confidenza": 0.85
+ },
+ {
+  "tipo": "termine",
+  "direzione": "en>it",
+  "lemma": "tech-savvy",
+  "forma_prof": "techno savvy",
+  "traduzione": "esperto di tecnologia, che se la cava con la tecnologia",
+  "definizione": "aggettivo che descrive una persona competente e a proprio agio con la tecnologia",
+  "blocchi": [
+   79
+  ],
+  "confidenza": 0.85,
+  "note": "la forma corretta è 'tech-savvy'; la prof scrive 'techno savvy'"
+ },
+ {
+  "tipo": "termine",
+  "direzione": "en>it",
+  "lemma": "bucket",
+  "forma_prof": "bucket",
+  "traduzione_prof": "secchio",
+  "ipa": "ˈbʌkɪt",
+  "blocchi": [
+   80
+  ],
+  "confidenza": 0.99,
+  "stato": "pubblicata"
+ },
+ {
+  "tipo": "phrasal_verb",
+  "direzione": "en>it",
+  "lemma": "kick the bucket",
+  "forma_prof": "TO KICK THE BUCKET",
+  "traduzione_prof": "TO DIE",
+  "traduzione": "morire (espressione colloquiale/idiomatic)",
+  "definizione": "espressione idiomatica informale per dire che qualcuno è morto; originata probabilmente dall'immagine di chi si impicca in piedi su un secchio",
+  "esempi": [
+   "John kicked the bucket last year"
+  ],
+  "blocchi": [
+   80,
+   89,
+   92,
+   93,
+   96,
+   99,
+   100,
+   101,
+   102,
+   103
+  ],
+  "confidenza": 0.97,
+  "stato": "in_attesa",
+  "note": "La prof ha costruito tutta la sequenza (secchio, corda, impiccagione, calcio al secchio) per spiegare l'etimologia dell'espressione idiomatica. I blocchi 99-101 mostrano la ricostruzione gestuale dell'atto ('stand on a bucket'). Blocco 100 'WE ARE GETTING THERE!' è una battuta della prof durante la spiegazione, non una voce."
+ },
+ {
+  "tipo": "coppia",
+  "direzione": "en>it",
+  "elementi": [
+   "natural death",
+   "to take one's own life"
+  ],
+  "forma_prof": "natural death / illness / accident / take their own life (to commit suicide)",
+  "traduzione": "morte naturale / per malattia / per incidente / togliersi la vita (suicidarsi)",
+  "differenza": "modi diversi in cui una persona può morire; 'to take one's own life' è la forma neutra e preferita per 'suicidarsi', meno stigmatizzante di 'to commit suicide'",
+  "esempi": [
+   "She died of natural causes",
+   "He took his own life"
+  ],
+  "blocchi": [
+   81,
+   82,
+   83,
+   84
+  ],
+  "confidenza": 0.85,
+  "stato": "in_attesa",
+  "note": "gruppo semantico sui modi di morire, incluso il suicidio. 'To commit' è collegato ai crimini (blocco 83-84): 'to commit a robbery / a crime'. La prof segnala che 'commit' è legato a un crimine, e storicamente 'commit suicide' era usato perché il suicidio era reato; oggi si preferisce 'take one's own life'. Contenuto sensibile: stato impostato a in_attesa."
+ },
+ {
+  "tipo": "coppia",
+  "direzione": "en>it",
+  "elementi": [
+   "to die",
+   "to kill oneself",
+   "to take one's own life"
+  ],
+  "differenza": "to die è il termine neutro (morte per cause naturali, malattia, incidente); to take one's own life e to kill oneself indicano il suicidio, con registro più formale il primo e più diretto il secondo",
+  "blocchi": [
+   81,
+   82,
+   85
+  ],
+  "confidenza": 0.9,
+  "stato": "in_attesa",
+  "note": "La prof distingue esplicitamente le cause di morte: natural death, illness, accident vs suicidio. Gruppo trattato con cautela per contenuto sensibile. Estratto solo ciò che è puramente linguistico."
+ },
+ {
+  "tipo": "collocazione",
+  "direzione": "en>it",
+  "lemma": "commit",
+  "forma_prof": "To Commit",
+  "traduzione_prof": "linked to a crime",
+  "traduzione": "commettere (reato o atto grave)",
+  "definizione": "commit si usa con sostantivi che indicano un crimine o un atto grave; la prof nota che è legato all'ambito del crimine",
+  "esempi": [
+   "commit a robbery",
+   "commit a crime",
+   "commit suicide",
+   "to commit a robbery",
+   "to commit a crime"
+  ],
+  "blocchi": [
+   83,
+   84
+  ],
+  "confidenza": 0.95,
+  "stato": "in_attesa",
+  "note": "La prof sottolinea che 'commit' è collocato con reati; suicide compare nell'esempio ma il focus didattico è sulla collocazione grammaticale del verbo."
+ },
+ {
+  "tipo": "termine",
+  "direzione": "en>it",
+  "lemma": "to hang",
+  "forma_prof": "TO HANG",
+  "traduzione": "impiccare / impiccarsi",
+  "ipa": "hæŋ",
+  "blocchi": [
+   89
+  ],
+  "confidenza": 0.9,
+  "stato": "in_attesa",
+  "note": "Presentato nel contesto della spiegazione etimologica di 'kick the bucket'. Contenuto sensibile: voce marcata in_attesa."
+ },
+ {
+  "tipo": "termine",
+  "direzione": "en>it",
+  "lemma": "hanger",
+  "forma_prof": "HANGER",
+  "traduzione": "gruccia (appendiabiti)",
+  "ipa": "ˈhæŋər",
+  "blocchi": [
+   90,
+   150
+  ],
+  "confidenza": 0.95,
+  "stato": "pubblicata",
+  "note": "Presentato a confronto con 'hangman' per distinguere i derivati di 'hang'. Il significato principale è gruccia; può anche indicare chi impicca, ma il contesto didattico suggerisce la distinzione con hangman."
+ },
+ {
+  "tipo": "termine",
+  "direzione": "en>it",
+  "lemma": "hangman",
+  "forma_prof": "HANGMAN",
+  "traduzione": "boia (chi esegue le impiccagioni)",
+  "ipa": "ˈhæŋmən",
+  "blocchi": [
+   91
+  ],
+  "confidenza": 0.85,
+  "stato": "pubblicata",
+  "note": "Presentato in coppia con hanger per distinguere i derivati di to hang."
+ },
+ {
+  "tipo": "termine",
+  "direzione": "en>it",
+  "lemma": "rope",
+  "forma_prof": "ROPE",
+  "traduzione": "corda",
+  "ipa": "rəʊp",
+  "blocchi": [
+   93
+  ],
+  "confidenza": 0.85,
+  "stato": "pubblicata",
+  "note": "Introdotto durante la spiegazione dell'etimologia di kick the bucket (chi si impicca si metteva su un secchio con una corda). Termine neutro estratto separatamente."
+ },
+ {
+  "tipo": "espressione",
+  "direzione": "en>it",
+  "lemma": "learn the ropes",
+  "forma_prof": "To learn the ropes",
+  "traduzione": "imparare i rudimenti, capire come funziona qualcosa",
+  "definizione": "espressione idiomatica: familiarizzarsi con le procedure o le regole di qualcosa",
+  "blocchi": [
+   94,
+   98
+  ],
+  "confidenza": 0.9,
+  "stato": "pubblicata",
+  "note": "Ripetuta due volte (blocchi 94 e 98), probabilmente per enfasi o ripresa dalla prof dopo una digressione."
+ },
+ {
+  "tipo": "termine",
+  "direzione": "en>it",
+  "lemma": "tie",
+  "forma_prof": "A tie",
+  "traduzione_prof": "cravatta",
+  "traduzione": "cravatta; pareggio; legame",
+  "ipa": "taɪ",
+  "blocchi": [
+   97
+  ],
+  "confidenza": 0.9,
+  "stato": "pubblicata",
+  "note": "La prof dà solo il significato 'cravatta'; to tie (legare) è introdotto nel blocco 96 come verbo."
+ },
+ {
+  "tipo": "termine",
+  "direzione": "en>it",
+  "lemma": "item",
+  "forma_prof": "ITEM on my b l",
+  "traduzione": "voce, elemento",
+  "definizione": "singolo elemento di una lista",
+  "esempi": [
+   "Going to Australia is the first item on my bucket list"
+  ],
+  "blocchi": [
+   107
+  ],
+  "confidenza": 0.9,
+  "stato": "pubblicata"
+ },
+ {
+  "tipo": "collocazione",
+  "direzione": "en>it",
+  "lemma": "be attracted to",
+  "forma_prof": "You are attracted TO that country / that land",
+  "traduzione": "essere attratti da",
+  "definizione": "collocazione: attracted regge la preposizione TO",
+  "esempi": [
+   "You are attracted TO that country / that land"
+  ],
+  "blocchi": [
+   108
+  ],
+  "confidenza": 0.9,
+  "stato": "pubblicata"
+ },
+ {
+  "tipo": "espressione",
+  "direzione": "en>it",
+  "lemma": "it's pointless",
+  "forma_prof": "IT'S POINTLESS - non ha senso",
+  "traduzione_prof": "non ha senso",
+  "traduzione": "è inutile, non ha senso",
+  "definizione": "espressione per indicare che qualcosa è privo di scopo o utilità",
+  "blocchi": [
+   110
+  ],
+  "confidenza": 0.92,
+  "stato": "pubblicata"
+ },
+ {
+  "tipo": "espressione",
+  "direzione": "en>it",
+  "lemma": "stream of consciousness",
+  "forma_prof": "string of thought",
+  "traduzione": "flusso di coscienza, filo del pensiero",
+  "definizione": "sequenza continua e non filtrata di pensieri",
+  "blocchi": [
+   111
+  ],
+  "confidenza": 0.55,
+  "stato": "pubblicata",
+  "note": "La forma 'string of thought' è probabilmente un refuso o variante per 'stream of thought' / 'stream of consciousness'. Il significato esatto non è del tutto chiaro dal solo blocco; confidenza bassa."
+ },
+ {
+  "tipo": "phrasal_verb",
+  "direzione": "en>it",
+  "lemma": "jot down",
+  "forma_prof": "TO JOT DOWN - appuntare",
+  "traduzione_prof": "appuntare",
+  "traduzione": "annotare, appuntare velocemente",
+  "definizione": "scrivere qualcosa rapidamente e brevemente",
+  "ipa": "dʒɒt daʊn",
+  "blocchi": [
+   112
+  ],
+  "confidenza": 0.97,
+  "stato": "pubblicata"
+ },
+ {
+  "tipo": "espressione",
+  "direzione": "en>it",
+  "lemma": "just FYI",
+  "forma_prof": "JUST FYI (FOR YOUR INFORMATION)",
+  "traduzione": "solo per tua informazione, tanto per sapere",
+  "definizione": "formula colloquiale usata per fornire un'informazione aggiuntiva",
+  "blocchi": [
+   116
+  ],
+  "confidenza": 0.95,
+  "stato": "pubblicata"
+ },
+ {
+  "tipo": "regola",
+  "titolo": "Present perfect: already",
+  "spiegazione": "'Already' si usa con il present perfect per indicare che un'azione è avvenuta prima del momento atteso.",
+  "esempi": [
+   "She has already left for work"
+  ],
+  "blocchi": [
+   122
+  ],
+  "confidenza": 0.8,
+  "stato": "pubblicata",
+  "note": "Il blocco è isolato; la struttura con 'already' suggerisce che la prof stava illustrando l'uso del present perfect. Potrebbe anche essere un semplice esempio contestuale."
+ },
+ {
+  "tipo": "regola",
+  "titolo": "fall down vs fell down",
+  "spiegazione": "Il verbo 'to fall' è irregolare: fall → fell → fallen. 'Fell down' è il passato semplice usato per eventi singoli.",
+  "esempi": [
+   "A tree fell down during the storm"
+  ],
+  "blocchi": [
+   125
+  ],
+  "confidenza": 0.75,
+  "stato": "pubblicata",
+  "note": "Il blocco isola il verbo al passato; la regola è dedotta dal contesto tipico di questo tipo di annotazione. Confidenza moderata per mancanza di spiegazione esplicita della prof."
+ },
+ {
+  "tipo": "termine",
+  "direzione": "en>it",
+  "lemma": "brunch",
+  "forma_prof": "BRUNCH",
+  "traduzione": "brunch",
+  "definizione": "pasto consumato a metà mattina, combinazione di colazione e pranzo",
+  "blocchi": [
+   127,
+   130,
+   151,
+   152,
+   153
+  ],
+  "confidenza": 0.98,
+  "stato": "pubblicata",
+  "note": "Il termine appare due volte (blocchi 127 e 130), probabilmente perché la prof è tornata sull'argomento dopo una digressione."
+ },
+ {
+  "tipo": "termine",
+  "direzione": "en>it",
+  "lemma": "far",
+  "forma_prof": "far - farther - THE FARTHEST",
+  "traduzione": "lontano - più lontano - il più lontano",
+  "definizione": "aggettivo/avverbio irregolare di distanza con i suoi gradi comparativo e superlativo",
+  "blocchi": [
+   129
+  ],
+  "confidenza": 0.85,
+  "stato": "pubblicata"
+ },
+ {
+  "tipo": "regola",
+  "titolo": "Comparativo e superlativo irregolare: far",
+  "spiegazione": "L'aggettivo/avverbio 'far' ha forme irregolari: far → farther → the farthest (per distanza fisica). Alternativa: further / the furthest (anche per senso figurato).",
+  "esempi": [
+   "far - farther - the farthest"
+  ],
+  "blocchi": [
+   129
+  ],
+  "confidenza": 0.92,
+  "stato": "pubblicata"
+ },
+ {
+  "tipo": "termine",
+  "direzione": "en>it",
+  "lemma": "portmanteau",
+  "forma_prof": "A portmanteau a manteau is a COAT",
+  "traduzione": "parola valigia; (arcaico) mantello/cappotto da viaggio",
+  "definizione": "parola formata dall'unione di due parole esistenti (es. brunch = breakfast + lunch); in senso originale, un tipo di cappotto o valigia",
+  "esempi": [
+   "brunch is a portmanteau of breakfast and lunch"
+  ],
+  "blocchi": [
+   131
+  ],
+  "confidenza": 0.85,
+  "stato": "pubblicata",
+  "note": "La prof specifica che 'manteau' significa cappotto, contestualizzando l'etimologia della parola 'portmanteau'. Refuso probabile: 'a manteau is a COAT' sembra una glossa sull'etimologia."
+ },
+ {
+  "tipo": "coppia",
+  "direzione": "en>it",
+  "elementi": [
+   "portmanteau word",
+   "blend word"
+  ],
+  "forma_prof": "portmanteau word / BLEND WORDS",
+  "traduzione": "parola macedonia / parola composta per fusione",
+  "differenza": "Sinonimi praticamente equivalenti: entrambi indicano parole formate fondendo due parole esistenti. 'Blend word' è il termine più comune in linguistica moderna; 'portmanteau' è più letterario.",
+  "blocchi": [
+   131,
+   151,
+   152,
+   153,
+   154,
+   155,
+   156,
+   158
+  ],
+  "confidenza": 0.9,
+  "stato": "pubblicata",
+  "esempi": [
+   "BRUNCH = BReakfast + lUNCH",
+   "smog = SMOke + fOG",
+   "motel = MOtor + hoTEL",
+   "hangry = HuNGRy + ANGRY",
+   "brexit = BRitish + EXIT",
+   "brexit = british + exit"
+  ]
+ },
+ {
+  "tipo": "collocazione",
+  "direzione": "en>it",
+  "lemma": "travel by",
+  "forma_prof": "People used to travel BY horse, BY ship",
+  "traduzione": "viaggiare con/in (mezzo di trasporto)",
+  "definizione": "collocazione: il mezzo di trasporto è introdotto dalla preposizione BY",
+  "esempi": [
+   "People used to travel BY horse, BY ship",
+   "People used to travel by horse, by ship"
+  ],
+  "blocchi": [
+   132
+  ],
+  "confidenza": 0.93,
+  "stato": "pubblicata"
+ },
+ {
+  "tipo": "termine",
+  "direzione": "en>it",
+  "lemma": "trolley",
+  "forma_prof": "a trolley",
+  "traduzione": "carrello; tram (BrE)",
+  "definizione": "veicolo su rotaie o carrello su ruote; in BrE anche il carrello del supermercato",
+  "ipa": "ˈtrɒli",
+  "blocchi": [
+   133
+  ],
+  "confidenza": 0.6,
+  "stato": "pubblicata",
+  "note": "Blocco isolato senza contesto esplicativo; probabilmente collegato alla discussione sui mezzi di trasporto (blocco 132) o a un'immagine. Confidenza moderata.",
+  "vedi_anche": "trolley/shopping cart"
+ },
+ {
+  "tipo": "coppia",
+  "direzione": "en>it",
+  "elementi": [
+   "trolley",
+   "shopping cart"
+  ],
+  "forma_prof": "A trolley - a shopping cart",
+  "traduzione_prof": "carrello",
+  "differenza": "trolley è la forma britannica, shopping cart quella americana per il carrello della spesa",
+  "variante": "BrE | AmE",
+  "blocchi": [
+   133,
+   136
+  ],
+  "confidenza": 0.93,
+  "stato": "pubblicata"
+ },
+ {
+  "tipo": "termine",
+  "direzione": "en>it",
+  "lemma": "homeless person",
+  "forma_prof": "a homeless person",
+  "traduzione": "senzatetto, persona senza fissa dimora",
+  "definizione": "persona priva di abitazione",
+  "blocchi": [
+   137
+  ],
+  "confidenza": 0.9,
+  "stato": "pubblicata"
+ },
+ {
+  "tipo": "termine",
+  "direzione": "en>it",
+  "lemma": "luggage",
+  "forma_prof": "LUGGAGE - a collective noun",
+  "traduzione": "bagaglio, bagagli",
+  "definizione": "sostantivo collettivo non numerabile: indica l'insieme dei bagagli, non si usa al plurale (*luggages)",
+  "esempi": [
+   "Is this your luggage? (non: luggages)"
+  ],
+  "blocchi": [
+   138,
+   143
+  ],
+  "confidenza": 0.97,
+  "stato": "pubblicata"
+ },
+ {
+  "tipo": "termine",
+  "direzione": "en>it",
+  "lemma": "suitcase",
+  "forma_prof": "a suitcase - valigia",
+  "traduzione_prof": "valigia",
+  "definizione": "singolo pezzo di bagaglio rigido o semi-rigido con manico",
+  "blocchi": [
+   139
+  ],
+  "confidenza": 0.97,
+  "stato": "pubblicata"
+ },
+ {
+  "tipo": "termine",
+  "direzione": "en>it",
+  "lemma": "sports bag",
+  "forma_prof": "sports bag",
+  "traduzione": "borsa sportiva, sacca da sport",
+  "definizione": "borsa morbida usata per attrezzatura sportiva o palestra",
+  "blocchi": [
+   140
+  ],
+  "confidenza": 0.85,
+  "stato": "pubblicata"
+ },
+ {
+  "tipo": "coppia",
+  "direzione": "en>it",
+  "elementi": [
+   "beauty case",
+   "makeup bag"
+  ],
+  "forma_prof": "beauty case makeup bag",
+  "traduzione": "beauty case, trousse del trucco",
+  "differenza": "beauty case (più formale/italiano-inglese) e makeup bag sono sinonimi per il contenitore dei cosmetici",
+  "blocchi": [
+   141
+  ],
+  "confidenza": 0.85,
+  "stato": "pubblicata"
+ },
+ {
+  "tipo": "coppia",
+  "direzione": "en>it",
+  "elementi": [
+   "posh",
+   "elegant"
+  ],
+  "forma_prof": "Posh - elegant",
+  "traduzione": "elegante, di lusso / elegante",
+  "differenza": "posh è colloquiale e implica lusso ostentato o classe sociale alta; elegant è più neutro e formale",
+  "blocchi": [
+   142
+  ],
+  "confidenza": 0.9,
+  "stato": "pubblicata"
+ },
+ {
+  "tipo": "termine",
+  "direzione": "en>it",
+  "lemma": "bellboy",
+  "forma_prof": "BELL BOY",
+  "traduzione": "fattorino d'albergo, portabagagli",
+  "definizione": "addetto all'accoglienza e al trasporto bagagli negli hotel",
+  "blocchi": [
+   143
+  ],
+  "confidenza": 0.88,
+  "stato": "pubblicata"
+ },
+ {
+  "tipo": "coppia",
+  "direzione": "en>it",
+  "elementi": [
+   "paper tissue",
+   "tissue"
+  ],
+  "forma_prof": "a paper tissue = a tissue",
+  "traduzione": "fazzoletto di carta",
+  "differenza": "paper tissue è la forma completa; tissue da solo è sufficiente nel parlato comune",
+  "blocchi": [
+   144
+  ],
+  "confidenza": 0.92,
+  "stato": "pubblicata"
+ },
+ {
+  "tipo": "phrasal_verb",
+  "direzione": "en>it",
+  "lemma": "blow one's nose",
+  "forma_prof": "I need a tissue to BLOW your nose",
+  "traduzione": "soffiarsi il naso",
+  "definizione": "espellere aria con forza dal naso soffiando",
+  "blocchi": [
+   145
+  ],
+  "confidenza": 0.93,
+  "stato": "pubblicata"
+ },
+ {
+  "tipo": "espressione",
+  "direzione": "en>it",
+  "lemma": "blow one's cheeks",
+  "forma_prof": "You can blow your nose and your CHEEKS",
+  "traduzione": "gonfiare le guance",
+  "definizione": "riempire d'aria le guance soffiando",
+  "blocchi": [
+   146
+  ],
+  "confidenza": 0.85,
+  "stato": "pubblicata"
+ },
+ {
+  "tipo": "espressione",
+  "direzione": "en>it",
+  "lemma": "blow a balloon",
+  "forma_prof": "You can blow a BALLOON",
+  "traduzione": "gonfiare un palloncino",
+  "definizione": "ulteriore uso del verbo blow: gonfiare un palloncino soffiando",
+  "blocchi": [
+   147
+  ],
+  "confidenza": 0.85,
+  "stato": "pubblicata"
+ },
+ {
+  "tipo": "regola",
+  "titolo": "Lettura degli anni: 1700",
+  "spiegazione": "L'anno 1700 si legge 'seventeen hundred', non 'one thousand seven hundred'. Per gli anni si divide in due coppie di cifre.",
+  "esempi": [
+   "1700 = seventeen hundred"
+  ],
+  "blocchi": [
+   148
+  ],
+  "confidenza": 0.9,
+  "stato": "pubblicata"
+ },
+ {
+  "tipo": "termine",
+  "direzione": "en>it",
+  "lemma": "trunk",
+  "forma_prof": "trunk",
+  "traduzione": "baule; bagagliaio (AmE); tronco d'albero; proboscide",
+  "definizione": "grande contenitore rigido per bagagli (baule); in contesto americano anche il bagagliaio dell'auto",
+  "blocchi": [
+   149
+  ],
+  "confidenza": 0.7,
+  "stato": "pubblicata",
+  "note": "Blocco isolato senza ulteriore contesto; confidenza moderata. Probabile collegamento al tema bagagli trattato nei blocchi vicini."
+ },
+ {
+  "tipo": "termine",
+  "direzione": "en>it",
+  "lemma": "brexit",
+  "forma_prof": "brexit - british + exit",
+  "traduzione": "Brexit",
+  "definizione": "esempio di blend word: British + exit, l'uscita del Regno Unito dall'UE",
+  "blocchi": [
+   154
+  ],
+  "confidenza": 0.9,
+  "stato": "pubblicata"
+ },
+ {
+  "tipo": "termine",
+  "direzione": "en>it",
+  "lemma": "motel",
+  "forma_prof": "MOTEL",
+  "traduzione": "motel",
+  "definizione": "struttura ricettiva economica con parcheggio facile, nata dalla fusione di 'motor' e 'hotel'",
+  "esempi": [
+   "A motel offers an easy parking area + cheap accommodation"
+  ],
+  "blocchi": [
+   156,
+   157
+  ],
+  "confidenza": 0.95,
+  "stato": "pubblicata"
+ },
+ {
+  "tipo": "termine",
+  "direzione": "en>it",
+  "lemma": "suitcase with wheels",
+  "forma_prof": "a suitcase with wheels",
+  "traduzione": "valigia con le ruote / trolley",
+  "blocchi": [
+   159
+  ],
+  "confidenza": 0.85,
+  "stato": "pubblicata"
+ },
+ {
+  "tipo": "coppia",
+  "direzione": "en>it",
+  "elementi": [
+   "to hold",
+   "to carry"
+  ],
+  "forma_prof": "TO HOLD / TO CARRY - hold + walk",
+  "traduzione": "tenere (fermo) / portare (in movimento)",
+  "differenza": "to hold = tenere qualcosa in mano senza necessariamente muoversi; to carry = portare qualcosa spostandosi, implica movimento",
+  "esempi": [
+   "TO CARRY - hold + walk"
+  ],
+  "blocchi": [
+   160,
+   161
+  ],
+  "confidenza": 0.92,
+  "stato": "pubblicata"
+ },
+ {
+  "tipo": "termine",
+  "direzione": "en>it",
+  "lemma": "carry-on",
+  "forma_prof": "A CARRY-ON",
+  "traduzione": "bagaglio a mano",
+  "definizione": "bagaglio che si porta in cabina sull'aereo, senza imbarcarlo in stiva",
+  "ipa": "ˈkæri ɒn",
+  "blocchi": [
+   162
+  ],
+  "confidenza": 0.95,
+  "stato": "pubblicata"
+ },
+ {
+  "tipo": "termine",
+  "direzione": "en>it",
+  "lemma": "to pack",
+  "forma_prof": "TO PACK - fare la valigia",
+  "traduzione_prof": "fare la valigia",
+  "traduzione": "fare la valigia / imballare",
+  "ipa": "pæk",
+  "blocchi": [
+   163
+  ],
+  "confidenza": 0.98,
+  "stato": "pubblicata"
+ },
+ {
+  "tipo": "termine",
+  "direzione": "en>it",
+  "lemma": "to fold",
+  "forma_prof": "TO FOLD - piegare",
+  "traduzione_prof": "piegare",
+  "traduzione": "piegare, ripiegare (un indumento)",
+  "ipa": "fəʊld",
+  "blocchi": [
+   164
+  ],
+  "confidenza": 0.98,
+  "stato": "pubblicata"
+ },
+ {
+  "tipo": "coppia",
+  "direzione": "en>it",
+  "elementi": [
+   "trip",
+   "journey"
+  ],
+  "forma_prof": "before the trip / journey /",
+  "traduzione": "viaggio (breve/in auto) / viaggio (lungo, con più tappe)",
+  "differenza": "trip = viaggio generalmente breve o di piacere; journey = viaggio più lungo, spesso con enfasi sul percorso",
+  "blocchi": [
+   165
+  ],
+  "confidenza": 0.8,
+  "stato": "pubblicata",
+  "note": "Blocco tagliato: la slash finale suggerisce che la prof stesse elencando un terzo sinonimo non trascritto"
+ },
+ {
+  "tipo": "phrasal_verb",
+  "direzione": "en>it",
+  "lemma": "to unpack",
+  "forma_prof": "UNPACK",
+  "traduzione": "disfare la valigia",
+  "definizione": "togliere i propri effetti personali dalla valigia dopo un viaggio",
+  "blocchi": [
+   166
+  ],
+  "confidenza": 0.95,
+  "stato": "pubblicata"
+ },
+ {
+  "tipo": "phrasal_verb",
+  "direzione": "en>it",
+  "lemma": "to unfold",
+  "forma_prof": "UNFOLD",
+  "traduzione": "spiegare, dispiegare",
+  "definizione": "contrario di fold: distendere ciò che era piegato",
+  "blocchi": [
+   167
+  ],
+  "confidenza": 0.95,
+  "stato": "pubblicata"
+ },
+ {
+  "tipo": "termine",
+  "direzione": "en>it",
+  "lemma": "wrinkle",
+  "forma_prof": "WRINKLES - / They are WRINKLED",
+  "traduzione": "grinza, piega (su un tessuto); ruga (sul viso)",
+  "definizione": "piega o ruga che si forma su un tessuto mal ripiegato o sulla pelle",
+  "esempi": [
+   "They are WRINKLED"
+  ],
+  "blocchi": [
+   168,
+   169
+  ],
+  "confidenza": 0.92,
+  "stato": "pubblicata",
+  "note": "Il blocco 168 è troncato dopo il trattino; il significato è completato dal contesto dei blocchi 169 e 174"
+ },
+ {
+  "tipo": "termine",
+  "direzione": "en>it",
+  "lemma": "to iron",
+  "forma_prof": "TO IRON - stirare",
+  "traduzione_prof": "stirare",
+  "traduzione": "stirare (v.); ferro da stiro (n.)",
+  "definizione": "eliminare le grinze dai vestiti usando un ferro da stiro; il sostantivo indica lo strumento stesso",
+  "ipa": "ˈaɪən",
+  "esempi": [
+   "You use an IRON to IRON"
+  ],
+  "blocchi": [
+   170,
+   171
+  ],
+  "confidenza": 0.98,
+  "stato": "pubblicata",
+  "note": "La prof sottolinea che il sostantivo e il verbo hanno la stessa forma: 'You use an IRON to IRON'",
+  "vedi_anche": "iron (sostantivo)/to iron"
+ },
+ {
+  "tipo": "coppia",
+  "direzione": "en>it",
+  "elementi": [
+   "to iron (clothes)",
+   "iron supplement"
+  ],
+  "forma_prof": "TO IRON / You take IRON supplements",
+  "traduzione": "stirare / integratore di ferro",
+  "differenza": "La stessa parola 'iron' indica il ferro da stiro (verbo: stirare) e il minerale ferro in senso nutrizionale (es. integratori)",
+  "esempi": [
+   "You use an IRON to IRON",
+   "You take IRON supplements"
+  ],
+  "blocchi": [
+   170,
+   171,
+   172,
+   173
+  ],
+  "confidenza": 0.88,
+  "stato": "pubblicata",
+  "note": "Il blocco 172 'I earn' sembra un refuso o scarto; potrebbe essere un esempio di parola omofona con 'iron' in alcune varietà, ma non è chiaro: confidenza leggermente abbassata"
+ },
+ {
+  "tipo": "coppia",
+  "direzione": "en>it",
+  "elementi": [
+   "iron (sostantivo)",
+   "to iron"
+  ],
+  "forma_prof": "TO IRON - stirare / You use an IRON to IRON",
+  "traduzione_prof": "stirare",
+  "differenza": "iron come sostantivo è il ferro da stiro; to iron come verbo significa stirare",
+  "esempi": [
+   "You use an IRON to IRON"
+  ],
+  "blocchi": [
+   170,
+   171
+  ],
+  "confidenza": 0.97,
+  "stato": "pubblicata"
+ },
+ {
+  "tipo": "termine",
+  "direzione": "en>it",
+  "lemma": "iron supplements",
+  "traduzione": "integratori di ferro",
+  "definizione": "supplementi alimentari a base di ferro minerale",
+  "esempi": [
+   "You take IRON supplements"
+  ],
+  "blocchi": [
+   173
+  ],
+  "confidenza": 0.9,
+  "stato": "pubblicata",
+  "note": "distingue iron minerale (ferro elemento) da iron (elettrodomestico) e to iron (verbo)"
+ },
+ {
+  "tipo": "termine",
+  "direzione": "en>it",
+  "lemma": "lifting",
+  "forma_prof": "LIFTING",
+  "traduzione": "lifting (intervento di chirurgia estetica per eliminare le rughe)",
+  "definizione": "procedura estetica che tende la pelle del viso per ridurre le rughe",
+  "esempi": [
+   "If you want to eliminate the wrinkles on your face, you can get a LIFTING"
+  ],
+  "blocchi": [
+   174,
+   175
+  ],
+  "confidenza": 0.88,
+  "stato": "pubblicata",
+  "note": "il blocco 174 contiene un refuso 'eliam minate' → 'eliminate'; forma_prof conservata come appare"
+ },
+ {
+  "tipo": "espressione",
+  "direzione": "en>it",
+  "lemma": "give someone a lift",
+  "traduzione": "dare un passaggio a qualcuno verso casa",
+  "definizione": "accompagnare qualcuno a casa con il proprio mezzo di trasporto",
+  "esempi": [
+   "You gave her a ride home.",
+   "Can you give me a LIFT?"
+  ],
+  "blocchi": [
+   176,
+   394
+  ],
+  "confidenza": 0.95,
+  "stato": "pubblicata"
+ },
+ {
+  "tipo": "phrasal_verb",
+  "direzione": "en>it",
+  "lemma": "pick up",
+  "traduzione_prof": "picked (up)",
+  "traduzione": "andare a prendere qualcuno (con un mezzo)",
+  "definizione": "raccogliere/prendere qualcuno con un veicolo da un luogo concordato",
+  "esempi": [
+   "You can pick me up in front of the gas station.",
+   "I can PICK you UP at 8"
+  ],
+  "blocchi": [
+   177,
+   392,
+   393,
+   395
+  ],
+  "confidenza": 0.97,
+  "stato": "pubblicata",
+  "vedi_anche": "pick up/drop off"
+ },
+ {
+  "tipo": "phrasal_verb",
+  "direzione": "en>it",
+  "lemma": "drop off",
+  "forma_prof": "TO DROP OFF",
+  "traduzione_prof": "far scendere",
+  "traduzione": "far scendere qualcuno, lasciare qualcuno da qualche parte",
+  "definizione": "accompagnare qualcuno a destinazione e lasciarlo scendere dal veicolo",
+  "blocchi": [
+   178,
+   395
+  ],
+  "confidenza": 0.97,
+  "stato": "pubblicata",
+  "esempi": [
+   "You can pick me up in front of the gas station and drop me off in Fano."
+  ],
+  "vedi_anche": "pick up/drop off"
+ },
+ {
+  "tipo": "coppia",
+  "direzione": "en>it",
+  "elementi": [
+   "senior",
+   "junior"
+  ],
+  "forma_prof": "He is my SENIOR / You are my JUNIOR",
+  "traduzione": "senior = più anziano/di grado superiore; junior = più giovane/di grado inferiore",
+  "differenza": "senior indica chi è più anziano o di rango superiore; junior indica chi è più giovane o di grado inferiore",
+  "esempi": [
+   "He is my SENIOR - older than you",
+   "You are my JUNIOR"
+  ],
+  "blocchi": [
+   179,
+   180
+  ],
+  "confidenza": 0.95,
+  "stato": "pubblicata"
+ },
+ {
+  "tipo": "phrasal_verb",
+  "direzione": "en>it",
+  "lemma": "glance at",
+  "forma_prof": "GLANCED at him",
+  "traduzione_prof": "looked quickly",
+  "traduzione": "dare una rapida occhiata a qualcuno/qualcosa",
+  "definizione": "guardare brevemente e di sfuggita",
+  "esempi": [
+   "I only GLANCED at him"
+  ],
+  "blocchi": [
+   181
+  ],
+  "confidenza": 0.97,
+  "stato": "pubblicata"
+ },
+ {
+  "tipo": "termine",
+  "direzione": "en>it",
+  "lemma": "skewer",
+  "forma_prof": "shrimp skewers",
+  "traduzione": "spiedino",
+  "definizione": "stecchino o spiedino su cui si infilzano alimenti per cuocerli o servirli",
+  "esempi": [
+   "shrimp skewers"
+  ],
+  "blocchi": [
+   182
+  ],
+  "confidenza": 0.85,
+  "stato": "pubblicata",
+  "note": "il blocco è isolato; probabilmente emerso durante una conversazione sul cibo"
+ },
+ {
+  "tipo": "termine",
+  "direzione": "en>it",
+  "lemma": "market",
+  "forma_prof": "a market - a street market - mercato",
+  "traduzione_prof": "mercato",
+  "traduzione": "mercato; mercato rionale all'aperto (street market)",
+  "definizione": "luogo dove si vendono merci, spesso all'aperto",
+  "blocchi": [
+   183
+  ],
+  "confidenza": 0.95,
+  "stato": "pubblicata"
+ },
+ {
+  "tipo": "termine",
+  "direzione": "en>it",
+  "lemma": "grocery store",
+  "forma_prof": "grocery stores / shops",
+  "traduzione": "negozio di alimentari",
+  "definizione": "negozio che vende prodotti alimentari e per la casa",
+  "esempi": [
+   "you go grocery shopping once a week"
+  ],
+  "blocchi": [
+   185,
+   186
+  ],
+  "confidenza": 0.95,
+  "stato": "pubblicata"
+ },
+ {
+  "tipo": "termine",
+  "direzione": "en>it",
+  "lemma": "greengrocer's",
+  "forma_prof": "greengrocer's - fruit + veggies",
+  "traduzione": "fruttivendolo, negozio di frutta e verdura",
+  "definizione": "negozio specializzato nella vendita di frutta e verdura",
+  "blocchi": [
+   187
+  ],
+  "confidenza": 0.97,
+  "stato": "pubblicata"
+ },
+ {
+  "tipo": "termine",
+  "direzione": "en>it",
+  "lemma": "dairy products",
+  "forma_prof": "dairy products (milk, butter, cheese, yogourt)",
+  "traduzione": "latticini, prodotti caseari",
+  "definizione": "prodotti alimentari derivati dal latte (latte, burro, formaggio, yogurt)",
+  "blocchi": [
+   188
+  ],
+  "confidenza": 0.97,
+  "stato": "pubblicata"
+ },
+ {
+  "tipo": "termine",
+  "direzione": "en>it",
+  "lemma": "dairy farm",
+  "forma_prof": "dairy farm - cows",
+  "traduzione": "azienda lattiero-casearia, fattoria di mucche da latte",
+  "definizione": "azienda agricola dove si allevano bovini per la produzione di latte",
+  "esempi": [
+   "you breed cows on a dairy farm"
+  ],
+  "blocchi": [
+   189,
+   190
+  ],
+  "confidenza": 0.97,
+  "stato": "pubblicata"
+ },
+ {
+  "tipo": "termine",
+  "direzione": "en>it",
+  "lemma": "to breed",
+  "traduzione_prof": "allevare",
+  "traduzione": "allevare (animali)",
+  "definizione": "allevare animali per produzione o riproduzione",
+  "esempi": [
+   "you breed cows on a dairy farm"
+  ],
+  "blocchi": [
+   190
+  ],
+  "confidenza": 0.82,
+  "stato": "pubblicata"
+ },
+ {
+  "tipo": "coppia",
+  "direzione": "en>it",
+  "elementi": [
+   "senseless",
+   "pointless"
+  ],
+  "traduzione": "insensato / inutile, senza scopo",
+  "differenza": "senseless = privo di senso o ragione; pointless = senza scopo, che non porta a nulla; spesso intercambiabili ma pointless enfatizza l'inutilità dello scopo",
+  "blocchi": [
+   191
+  ],
+  "confidenza": 0.9,
+  "stato": "pubblicata"
+ },
+ {
+  "tipo": "espressione",
+  "direzione": "en>it",
+  "lemma": "what's on your agenda",
+  "forma_prof": "What's on your agenda for today?",
+  "traduzione": "cosa hai in programma per oggi?",
+  "definizione": "domanda informale per sapere i piani o gli impegni della giornata",
+  "esempi": [
+   "What's on your agenda for today?"
+  ],
+  "blocchi": [
+   192
+  ],
+  "confidenza": 0.93,
+  "stato": "pubblicata"
+ },
+ {
+  "tipo": "termine",
+  "direzione": "it>en",
+  "lemma": "safety gear",
+  "forma_prof": "safey equipment / safety gear",
+  "traduzione_prof": "schieppe",
+  "traduzione": "attrezzatura di sicurezza, dispositivi di protezione individuale",
+  "definizione": "equipaggiamento protettivo usato in contesti di lavoro o sport",
+  "esempi": [
+   "I have to COLLECT all the safety gear"
+  ],
+  "blocchi": [
+   193,
+   194,
+   195
+  ],
+  "confidenza": 0.82,
+  "stato": "pubblicata",
+  "note": "la prof usa il termine dialettale/informale 'schieppe' come punto di partenza italiano; 'safey' è refuso per 'safety'"
+ },
+ {
+  "tipo": "regola",
+  "direzione": "en>it",
+  "titolo": "Articolo indeterminativo AN davanti a parole con H muta",
+  "spiegazione": "Si usa AN (invece di A) davanti a parole che iniziano con H muta, cioè quando la H non si pronuncia e la parola inizia foneticamente con una vocale.",
+  "esempi": [
+   "AN HOUR AGO",
+   "AN HONEST YOUNG MAN",
+   "AN HONOUR TO BE YOUR AUNT",
+   "AN HEIR - erede (pronuncia: /ɛr/)"
+  ],
+  "blocchi": [
+   196,
+   197,
+   198,
+   199
+  ],
+  "confidenza": 0.97,
+  "stato": "pubblicata",
+  "note": "la prof segnala esplicitamente la pronuncia di HEIR come AIR (/ɛr/)"
+ },
+ {
+  "tipo": "termine",
+  "direzione": "en>it",
+  "lemma": "heir",
+  "forma_prof": "AN HEIR",
+  "traduzione_prof": "erede",
+  "definizione": "persona che eredita beni o titoli",
+  "ipa": "/ɛr/",
+  "blocchi": [
+   199
+  ],
+  "confidenza": 0.95,
+  "stato": "pubblicata",
+  "note": "la prof segnala che la pronuncia è AIR, non /heɪr/; H muta"
+ },
+ {
+  "tipo": "termine",
+  "direzione": "en>it",
+  "lemma": "shutter",
+  "traduzione": "persiana, scuro (della finestra)",
+  "definizione": "pannello mobile usato per coprire una finestra",
+  "esempi": [
+   "I opened the shutters"
+  ],
+  "blocchi": [
+   201
+  ],
+  "confidenza": 0.8,
+  "stato": "pubblicata"
+ },
+ {
+  "tipo": "coppia",
+  "direzione": "en>it",
+  "elementi": [
+   "tidy",
+   "untidy"
+  ],
+  "traduzione_prof": "tidy - ordinato / untidy - disordinato",
+  "traduzione": "ordinato / disordinato",
+  "differenza": "tidy = in ordine, ben sistemato; untidy = disordinato, in disordine; sono antonimi diretti",
+  "blocchi": [
+   202,
+   203,
+   204,
+   205
+  ],
+  "confidenza": 0.95,
+  "stato": "pubblicata"
+ },
+ {
+  "tipo": "collocazione",
+  "direzione": "en>it",
+  "lemma": "neat and tidy",
+  "traduzione": "in perfetto ordine, tutto in ordine",
+  "definizione": "espressione fissa che rafforza il concetto di ordine e pulizia",
+  "blocchi": [
+   204
+  ],
+  "confidenza": 0.9,
+  "stato": "pubblicata"
+ },
+ {
+  "tipo": "coppia",
+  "direzione": "en>it",
+  "elementi": [
+   "heap",
+   "pile"
+  ],
+  "traduzione": "mucchio disordinato / pila ordinata",
+  "differenza": "heap = mucchio sempre disordinato e caotico; pile = insieme di oggetti impilati verticalmente, può essere ordinato o disordinato",
+  "esempi": [
+   "A HEAP is an untidy collection of objects.",
+   "we have HEAPS of room (informale: un sacco di spazio)",
+   "A PILE - a collection of objects laid vertically on top of each other",
+   "a pile of books, a pile of bricks",
+   "a pile of books",
+   "a pile of bricks"
+  ],
+  "blocchi": [
+   207,
+   208,
+   210,
+   213,
+   215,
+   219
+  ],
+  "confidenza": 0.97,
+  "stato": "pubblicata",
+  "note": "la prof sottolinea con enfasi (BUT!!!!) la distinzione: heap è sempre messy, pile può essere tidy o untidy"
+ },
+ {
+  "tipo": "termine",
+  "direzione": "en>it",
+  "lemma": "mess",
+  "traduzione_prof": "casino",
+  "traduzione": "disordine, caos",
+  "definizione": "situazione o luogo in gran disordine",
+  "blocchi": [
+   217
+  ],
+  "confidenza": 0.9,
+  "stato": "pubblicata"
+ },
+ {
+  "tipo": "termine",
+  "direzione": "en>it",
+  "lemma": "messy",
+  "forma_prof": "he is messy - undity",
+  "traduzione_prof": "disordinato",
+  "traduzione": "disordinato, caotico",
+  "definizione": "che tende a creare disordine o che si trova in disordine",
+  "esempi": [
+   "he is messy"
+  ],
+  "blocchi": [
+   217,
+   218
+  ],
+  "confidenza": 0.9,
+  "stato": "pubblicata",
+  "note": "'undity' è refuso per 'untidy'; la prof lo usa come sinonimo esplicativo"
+ },
+ {
+  "tipo": "termine",
+  "direzione": "en>it",
+  "lemma": "to enhance",
+  "forma_prof": "TO ENHANCE",
+  "traduzione_prof": "INTENSIFY, INCREASE",
+  "traduzione": "migliorare, potenziare, intensificare",
+  "ipa": "ɪnˈhɑːns",
+  "esempi": [
+   "The software was updated to enhance the security of the user's data.",
+   "The manager is trying to find new strategies to enhance teamwork.",
+   "You can enhance the machine's productivity by adding another speed device."
+  ],
+  "blocchi": [
+   221,
+   223,
+   224,
+   225
+  ],
+  "confidenza": 0.98,
+  "stato": "pubblicata"
+ },
+ {
+  "tipo": "coppia",
+  "direzione": "en>it",
+  "elementi": [
+   "to throttle",
+   "to choke",
+   "to strangle"
+  ],
+  "traduzione_prof": "TO THROTTLE = to chock = to strangle",
+  "traduzione": "strozzare / soffocare / strangolare",
+  "differenza": "sinonimi con sfumature d'intensità e registro diversi; throttle è anche il più colloquiale e iperbolico",
+  "esempi": [
+   "I am so angry I could throttle him!"
+  ],
+  "blocchi": [
+   226,
+   230,
+   231
+  ],
+  "confidenza": 0.93,
+  "stato": "pubblicata",
+  "note": "la prof ha scritto 'chock' invece di 'choke': refuso"
+ },
+ {
+  "tipo": "coppia",
+  "direzione": "en>it",
+  "elementi": [
+   "accelerator pedal",
+   "gas pedal"
+  ],
+  "traduzione": "pedale dell'acceleratore (formale, BrE e AmE) / acceleratore (colloquiale AmE)",
+  "differenza": "accelerator / accelerator pedal è il termine tecnico e formale usato in entrambe le varianti; gas pedal (o gas) è l'espressione colloquiale tipica dell'inglese americano",
+  "blocchi": [
+   227,
+   228
+  ],
+  "confidenza": 0.95,
+  "stato": "pubblicata"
+ },
+ {
+  "tipo": "coppia",
+  "elementi": [
+   "clammy",
+   "wet"
+  ],
+  "differenza": "'Clammy' descrive una sensazione di umido appiccicoso e sgradevole (tipicamente la pelle sudata e fredda); 'wet' è semplicemente bagnato",
+  "ipa": "ˈklæmi",
+  "blocchi": [
+   233,
+   234,
+   333
+  ],
+  "confidenza": 0.88,
+  "stato": "pubblicata",
+  "direzione": "en>it",
+  "esempi": [
+   "His skin felt cold and clammy."
+  ]
+ },
+ {
+  "tipo": "coppia",
+  "direzione": "en>it",
+  "elementi": [
+   "shade",
+   "shadow"
+  ],
+  "traduzione_prof": "ombra",
+  "traduzione": "ombra (zona non esposta al sole) / ombra (sagoma proiettata da un oggetto o persona)",
+  "differenza": "shade indica una zona d'ombra generica, assenza di luce solare diretta; shadow è l'ombra come sagoma proiettata da un corpo",
+  "esempi": [
+   "sit in the shade if you don't want to get sunburnt",
+   "i like your new shades"
+  ],
+  "blocchi": [
+   236,
+   237,
+   238,
+   240
+  ],
+  "confidenza": 0.8,
+  "stato": "pubblicata",
+  "note": "il blocco 240 (SHADOW) sembra incompleto: mancano esempi e spiegazione per shadow; confidenza ridotta per la parte relativa a shadow. Il blocco 238 mostra anche il significato colloquiale di shades = occhiali da sole"
+ },
+ {
+  "tipo": "phrasal_verb",
+  "direzione": "en>it",
+  "lemma": "pencil in",
+  "forma_prof": "pencil in",
+  "traduzione": "fissare provvisoriamente (un appuntamento), mettere in agenda in via non definitiva",
+  "definizione": "fissare un appuntamento o un incontro in modo provvisorio, suscettibile di conferma o modifica",
+  "esempi": [
+   "Let's pencil in a lunch meeting next Wednesday, but I'll call on Monday to confirm it."
+  ],
+  "blocchi": [
+   242,
+   243,
+   244
+  ],
+  "confidenza": 0.98,
+  "stato": "pubblicata"
+ },
+ {
+  "tipo": "regola",
+  "direzione": "en>it",
+  "titolo": "Past perfect, past continuous e past simple con 'when'",
+  "spiegazione": "Quando si usa 'when' con un'azione passata, il past perfect (had already/just left) indica che l'azione era già completata prima dell'arrivo; il past continuous (was leaving) indica che l'azione era in corso; il past simple (left) indica che le due azioni sono avvenute in sequenza immediata.",
+  "esempi": [
+   "When I arrived at his house, he HAD ALREADY / JUST LEFT. (era già andato via)",
+   "When I arrived at his house, he WAS LEAVING. (stava andando via)",
+   "When I arrived at his house, he LEFT. (andò via)",
+   "When I arrived at his house, he had already/just left. (azione completata prima dell'arrivo)",
+   "When I arrived at his house, he was leaving. (azione in corso al momento dell'arrivo)"
+  ],
+  "blocchi": [
+   245,
+   246,
+   247
+  ],
+  "confidenza": 0.97,
+  "stato": "pubblicata"
+ },
+ {
+  "tipo": "coppia",
+  "direzione": "en>it",
+  "elementi": [
+   "funny",
+   "punny"
+  ],
+  "differenza": "'funny' = divertente in generale; 'punny' = divertente perché basato su un gioco di parole (pun), termine informale/umoristico",
+  "blocchi": [
+   249
+  ],
+  "confidenza": 0.9,
+  "stato": "pubblicata"
+ },
+ {
+  "tipo": "espressione",
+  "direzione": "en>it",
+  "lemma": "put down",
+  "forma_prof": "put down",
+  "traduzione": "posare (qualcosa), mettere giù",
+  "definizione": "posare un oggetto su una superficie più bassa; in senso figurato, non riuscire a smettere di leggere un libro",
+  "esempi": [
+   "Anti-gravity books are impossible to put down.",
+   "When you put something down, you place it on a lower level."
+  ],
+  "blocchi": [
+   251,
+   252
+  ],
+  "confidenza": 0.95,
+  "stato": "pubblicata",
+  "note": "Il blocco 251 è una barzelletta: un libro anti-gravità è impossibile da 'put down' sia in senso fisico (non cade) sia in senso figurato (non riesci a smettere di leggerlo)."
+ },
+ {
+  "tipo": "coppia",
+  "direzione": "en>it",
+  "elementi": [
+   "of age",
+   "adult"
+  ],
+  "differenza": "'adult' = adulto in generale; 'of age' = che ha raggiunto la maggiore età (18 anni), con implicazione legale",
+  "esempi": [
+   "When he became of age = when he turned 18, he voted for the first time."
+  ],
+  "blocchi": [
+   253,
+   254
+  ],
+  "confidenza": 0.95,
+  "stato": "pubblicata"
+ },
+ {
+  "tipo": "regola",
+  "direzione": "it>en",
+  "titolo": "Quanti anni hai compiuto? → How old did you turn?",
+  "spiegazione": "Per chiedere quanti anni si sono compiuti in un momento passato si usa 'How old did you turn + in [periodo]?'; la risposta usa 'I turned [età]'.",
+  "esempi": [
+   "How old did you turn in June? — I turned 32."
+  ],
+  "blocchi": [
+   255,
+   256
+  ],
+  "confidenza": 0.97,
+  "stato": "pubblicata"
+ },
+ {
+  "tipo": "termine",
+  "direzione": "en>it",
+  "lemma": "to turn",
+  "forma_prof": "TO TURN - girare - compiere - diventare",
+  "traduzione_prof": "girare - compiere - diventare",
+  "traduzione": "girare; compiere (anni); diventare",
+  "definizione": "verbo polisemico: ruotare, raggiungere un'età, cambiare stato o colore",
+  "esempi": [
+   "The leaves turn yellow and red in fall."
+  ],
+  "blocchi": [
+   257,
+   258
+  ],
+  "confidenza": 0.97,
+  "stato": "pubblicata"
+ },
+ {
+  "tipo": "espressione",
+  "direzione": "en>it",
+  "lemma": "kudos to you",
+  "forma_prof": "Kudos to you! My compliments to you!",
+  "traduzione_prof": "My compliments to you!",
+  "traduzione": "Complimenti a te! / Chapeau!",
+  "definizione": "esclamazione informale per esprimere ammirazione o apprezzamento verso qualcuno",
+  "blocchi": [
+   260
+  ],
+  "confidenza": 0.95,
+  "stato": "pubblicata"
+ },
+ {
+  "tipo": "lettura",
+  "titolo": "Tucker Leonard (testo sull'immagine/estratto)",
+  "blocchi": [
+   262,
+   263
+  ],
+  "confidenza": 0.55,
+  "stato": "in_attesa",
+  "note": "Il blocco 262 è un'immagine e il 263 è solo una frase introduttiva. Il testo sembra tagliato: potrebbe continuare in blocchi successivi non visibili. Contenuto potenzialmente sensibile (riferimento a lotta con le proprie mani ogni mattina per 30 anni, possibile riferimento a disturbi motori o autolesionismo): marcato in_attesa in attesa di revisione."
+ },
+ {
+  "tipo": "regola",
+  "direzione": "it>en",
+  "titolo": "Shall I…? per offerte e proposte in prima persona",
+  "spiegazione": "'Shall I + infinito?' si usa per offrirsi di fare qualcosa o per chiedere istruzioni, equivalente all'italiano 'Lo faccio io? / Vado io? / Rispondo?'",
+  "esempi": [
+   "Shall I call him? (Lo chiamo?)",
+   "Shall I go? (Vado io?)",
+   "Shall I answer? (Rispondo?)"
+  ],
+  "blocchi": [
+   265,
+   266,
+   267
+  ],
+  "confidenza": 0.97,
+  "stato": "pubblicata"
+ },
+ {
+  "tipo": "coppia",
+  "direzione": "en>it",
+  "elementi": [
+   "sweet",
+   "sweat"
+  ],
+  "forma_prof": "SWEET / SWEAT",
+  "differenza": "'Sweet' significa dolce (aggettivo); 'sweat' significa sudore (sostantivo) o sudare (verbo). Si confondono per grafia simile.",
+  "ipa": "suːt / swet",
+  "blocchi": [
+   268,
+   269,
+   270
+  ],
+  "confidenza": 0.95,
+  "stato": "pubblicata",
+  "esempi": [
+   "sweatshirt"
+  ]
+ },
+ {
+  "tipo": "termine",
+  "direzione": "en>it",
+  "lemma": "sweatshirt",
+  "forma_prof": "sweatshirt",
+  "traduzione": "felpa",
+  "definizione": "indumento sportivo di cotone felpato a maniche lunghe",
+  "blocchi": [
+   269
+  ],
+  "confidenza": 0.85,
+  "stato": "pubblicata"
+ },
+ {
+  "tipo": "regola",
+  "direzione": "en>it",
+  "titolo": "Pronuncia del passato regolare: terminazioni -ed",
+  "spiegazione": "Il suffisso -ed del past simple e past participle si pronuncia in tre modi diversi a seconda del suono finale del verbo: /t/ dopo consonanti sorde (noticed, kissed, washed, watched); /d/ dopo consonanti sonore o vocali (rubbed); /ɪd/ dopo /t/ o /d/ (waited, dedicated, wanted).",
+  "esempi": [
+   "noticed /nəʊtɪst/",
+   "washed /wɒʃt/",
+   "watched /wɒtʃt/",
+   "kissed /kɪst/",
+   "rubbed /rʌbd/",
+   "waited /weɪtɪd/",
+   "dedicated /ˈdedɪkeɪtɪd/",
+   "wanted /ˈwɒntɪd/",
+   "noticed /ˈnoʊtɪst/ (da notare: la prof scrive anche 'notict', refuso)"
+  ],
+  "blocchi": [
+   271,
+   272,
+   273
+  ],
+  "confidenza": 0.95,
+  "stato": "pubblicata",
+  "note": "I blocchi mostrano esempi raggruppati per categoria di pronuncia. 'notict' e 'rubd' sono grafie fonetiche approssimative usate dalla prof per illustrare il suono reale, non refusi da correggere nel lemma."
+ },
+ {
+  "tipo": "lettura",
+  "titolo": "Leonard e la iperhidrosi palmare",
+  "blocchi": [
+   274,
+   278,
+   279,
+   280,
+   288,
+   289,
+   291,
+   292,
+   293,
+   295,
+   296,
+   297,
+   298,
+   299,
+   300,
+   301,
+   302,
+   303,
+   304,
+   305,
+   306,
+   307
+  ],
+  "espressioni_evidenziate": [
+   "playing",
+   "sweat",
+   "hyperhidrosis",
+   "body's impulse",
+   "give up",
+   "anxiety",
+   "big role",
+   "career path"
+  ],
+  "confidenza": 0.95,
+  "stato": "pubblicata",
+  "note": "I blocchi 274, 288 non sono marcati [TESTO LUNGO] ma sono chiaramente parte del medesimo articolo (stessa storia di Leonard, stesso registro). Il blocco 280 non è marcato [TESTO LUNGO] ma è narrativamente continuo con 279. L'articolo potrebbe continuare oltre il blocco 292 (finestra tagliata in coda)."
+ },
+ {
+  "tipo": "espressione",
+  "direzione": "en>it",
+  "lemma": "would go",
+  "forma_prof": "would go = would say",
+  "traduzione_prof": "would say",
+  "traduzione": "si metteva a dire / diceva (uso narrativo di 'go' nel senso di 'dire')",
+  "definizione": "Uso informale di 'go' al posto di 'say' per riportare discorso diretto, specie nel racconto orale.",
+  "esempi": [
+   "the person after would go, 'This thing's wet.'"
+  ],
+  "blocchi": [
+   275
+  ],
+  "confidenza": 0.92,
+  "stato": "pubblicata"
+ },
+ {
+  "tipo": "termine",
+  "direzione": "en>it",
+  "lemma": "to deal",
+  "forma_prof": "to deal - dealt - dealt - trattare",
+  "traduzione_prof": "trattare",
+  "traduzione": "trattare, gestire, affrontare",
+  "definizione": "verbo irregolare; nel contesto 'deal with' significa affrontare o gestire una situazione difficile",
+  "blocchi": [
+   276
+  ],
+  "confidenza": 0.95,
+  "stato": "pubblicata",
+  "note": "La prof ha esplicitato le forme irregolari: deal - dealt - dealt."
+ },
+ {
+  "tipo": "espressione",
+  "direzione": "en>it",
+  "lemma": "would have",
+  "forma_prof": "would've - would have",
+  "traduzione": "avrebbe (forma contratta del condizionale passato)",
+  "definizione": "Contrazione parlata/scritta informale di 'would have', usata nel condizionale passato.",
+  "esempi": [
+   "I probably would've. = I probably would have."
+  ],
+  "blocchi": [
+   277
+  ],
+  "confidenza": 0.9,
+  "stato": "pubblicata"
+ },
+ {
+  "tipo": "phrasal_verb",
+  "direzione": "en>it",
+  "lemma": "give up",
+  "traduzione": "rinunciare a, cedere",
+  "definizione": "smettere di fare qualcosa o cedere qualcosa",
+  "esempi": [
+   "if I had to give up a piece of my left ear to fix it, I probably would've"
+  ],
+  "blocchi": [
+   278
+  ],
+  "confidenza": 0.88,
+  "stato": "pubblicata"
+ },
+ {
+  "tipo": "coppia",
+  "direzione": "en>it",
+  "elementi": [
+   "to threaten",
+   "threat"
+  ],
+  "forma_prof": "TO THREATEN / THREAT",
+  "traduzione": "minacciare / minaccia",
+  "differenza": "TO THREATEN è il verbo ('minacciare'); THREAT è il sostantivo ('minaccia'). Coppia verbo-nome della stessa radice, utile per non confondere le forme.",
+  "blocchi": [
+   281,
+   282
+  ],
+  "confidenza": 0.9,
+  "stato": "pubblicata"
+ },
+ {
+  "tipo": "coppia",
+  "direzione": "en>it",
+  "elementi": [
+   "anxious",
+   "anxiety"
+  ],
+  "forma_prof": "ANXIOUS / ANXIETY",
+  "differenza": "'Anxious' è l'aggettivo (ansioso); 'anxiety' è il sostantivo (ansia). Coppia aggettivo/sostantivo della stessa famiglia.",
+  "ipa": "ˈæŋkʃəs / æŋˈzaɪəti",
+  "blocchi": [
+   283,
+   284
+  ],
+  "confidenza": 0.95,
+  "stato": "pubblicata"
+ },
+ {
+  "tipo": "coppia",
+  "direzione": "en>it",
+  "elementi": [
+   "moist",
+   "moisture"
+  ],
+  "forma_prof": "MOIST / MOISTURE",
+  "differenza": "'Moist' è l'aggettivo (umido, bagnaticcio); 'moisture' è il sostantivo (umidità, umidore). Coppia aggettivo/sostantivo della stessa famiglia.",
+  "ipa": "mɔɪst / ˈmɔɪstʃə",
+  "blocchi": [
+   285,
+   286
+  ],
+  "confidenza": 0.95,
+  "stato": "pubblicata"
+ },
+ {
+  "tipo": "coppia",
+  "elementi": [
+   "thick",
+   "thin"
+  ],
+  "forma_prof": "THICK - THIN",
+  "traduzione": "spesso / sottile",
+  "differenza": "Thick = di grande spessore, denso; thin = di piccolo spessore, sottile. Antonimi diretti usati per descrivere materiali, tessuti, oggetti.",
+  "ipa": "θɪk / θɪn",
+  "blocchi": [
+   290
+  ],
+  "confidenza": 0.95,
+  "stato": "pubblicata",
+  "note": "La coppia emerge dal contesto dell'articolo (thick work gloves), dove la prof ha fermato la lettura per segnalare i due termini come da studiare insieme.",
+  "direzione": "en>it",
+  "esempi": [
+   "even while wearing thick work gloves"
+  ]
+ },
+ {
+  "tipo": "lettura",
+  "titolo": "Bikes can take you anywhere",
+  "blocchi": [
+   312,
+   314,
+   315,
+   317,
+   318
+  ],
+  "espressioni_evidenziate": [
+   "the perfect excuse to head somewhere",
+   "panacea for",
+   "stress"
+  ],
+  "confidenza": 0.95,
+  "stato": "pubblicata",
+  "note": "Il blocco 312 è la consegna 'Does it apply to you?', il 315 è 'Skim through the paragraph', il 314 è un'immagine. Tutti pertinenti alla lettura. Il testo inizia dal blocco 318."
+ },
+ {
+  "tipo": "espressione",
+  "lemma": "head somewhere",
+  "forma_prof": "head somewhere",
+  "traduzione": "dirigersi da qualche parte, andare in qualche posto",
+  "definizione": "Spostarsi verso una destinazione, spesso in modo spontaneo.",
+  "esempi": [
+   "Having a bike ready in the garage is the perfect excuse to head somewhere."
+  ],
+  "blocchi": [
+   318
+  ],
+  "confidenza": 0.88,
+  "stato": "pubblicata",
+  "note": "Marcato in grassetto nell'articolo dalla prof; estratto come voce autonoma perché phrasal verb lessicalmente rilevante.",
+  "direzione": "en>it"
+ },
+ {
+  "tipo": "espressione",
+  "lemma": "panacea for",
+  "forma_prof": "panacea for",
+  "traduzione": "panacea per, rimedio universale per",
+  "definizione": "Soluzione o rimedio che si suppone risolva ogni problema; usato spesso in senso figurato.",
+  "esempi": [
+   "A bike ride is a panacea for mental and physical stress."
+  ],
+  "blocchi": [
+   318
+  ],
+  "confidenza": 0.9,
+  "stato": "pubblicata",
+  "note": "Marcato in grassetto nell'articolo; la collocazione 'panacea for' è il punto didattico (preposizione che regge il sostantivo).",
+  "direzione": "en>it"
+ },
+ {
+  "tipo": "coppia",
+  "elementi": [
+   "where are you going",
+   "where are you headed"
+  ],
+  "differenza": "Entrambe chiedono la destinazione; 'headed' è leggermente più formale o ricercato, comune in inglese americano",
+  "esempi": [
+   "Where are you going? Where are you headed?",
+   "I'm going home / I'm headed home"
+  ],
+  "blocchi": [
+   319,
+   320
+  ],
+  "confidenza": 0.92,
+  "stato": "pubblicata",
+  "direzione": "en>it"
+ },
+ {
+  "tipo": "coppia",
+  "elementi": [
+   "whether",
+   "weather"
+  ],
+  "differenza": "'Whether' è congiunzione condizionale/alternativa; 'weather' è il sostantivo che indica le condizioni atmosferiche",
+  "ipa": "ˈweðə(r)",
+  "esempi": [
+   "Whether you like it or not",
+   "Whether it's a ride downtown or a trip to the mountains"
+  ],
+  "blocchi": [
+   321,
+   324
+  ],
+  "confidenza": 0.95,
+  "stato": "pubblicata",
+  "note": "La prof li ha messi in coppia perché hanno la stessa pronuncia (false friends fonologici). L'esempio 'Whether you like it or not' viene dal blocco 324.",
+  "direzione": "en>it"
+ },
+ {
+  "tipo": "coppia",
+  "elementi": [
+   "downtown",
+   "uptown"
+  ],
+  "differenza": "'Downtown' indica il centro città o la zona commerciale; 'uptown' indica i quartieri residenziali o la parte alta della città",
+  "blocchi": [
+   323
+  ],
+  "confidenza": 0.9,
+  "stato": "pubblicata",
+  "direzione": "en>it"
+ },
+ {
+  "tipo": "espressione",
+  "lemma": "to swallow",
+  "traduzione_prof": "It hurts when you SWALLOW",
+  "traduzione": "deglutire",
+  "definizione": "Fare scendere cibo o liquidi in gola; contesto: sintomi fisici",
+  "esempi": [
+   "It hurts when you swallow"
+  ],
+  "ipa": "ˈswɒləʊ",
+  "blocchi": [
+   326
+  ],
+  "confidenza": 0.85,
+  "stato": "pubblicata",
+  "direzione": "en>it"
+ },
+ {
+  "tipo": "coppia",
+  "elementi": [
+   "driver",
+   "rider"
+  ],
+  "differenza": "'Driver' guida un veicolo a motore con abitacolo (auto, camion); 'rider' guida una moto, una bici o cavalca un animale",
+  "blocchi": [
+   328
+  ],
+  "confidenza": 0.93,
+  "stato": "pubblicata",
+  "direzione": "en>it"
+ },
+ {
+  "tipo": "collocazione",
+  "direzione": "en>it",
+  "lemma": "comfortable to ride",
+  "forma_prof": "They are comfortable to ride",
+  "traduzione": "comodi da guidare/pedalare",
+  "definizione": "Struttura 'comfortable + to-infinitive' per descrivere la facilità o comodità d'uso di qualcosa.",
+  "esempi": [
+   "They are comfortable to ride.",
+   "How does riding a bike make you feel?"
+  ],
+  "blocchi": [
+   329,
+   330
+  ],
+  "confidenza": 0.78,
+  "stato": "pubblicata",
+  "note": "I due blocchi sembrano formare una mini-sequenza domanda-risposta per esercitare la struttura aggettivo + infinito. Il blocco 329 è la domanda stimolo, il 330 è il modello di risposta."
+ },
+ {
+  "tipo": "termine",
+  "lemma": "insurance",
+  "traduzione": "assicurazione",
+  "definizione": "Contratto che copre danni o perdite economiche",
+  "ipa": "ɪnˈʃʊərəns",
+  "blocchi": [
+   331
+  ],
+  "confidenza": 0.8,
+  "stato": "pubblicata",
+  "note": "Blocco isolato, presumibilmente emerso in discussione sulla moto. Nessun contesto aggiuntivo.",
+  "direzione": "en>it"
+ },
+ {
+  "tipo": "termine",
+  "lemma": "side effects",
+  "traduzione": "effetti collaterali",
+  "definizione": "Conseguenze secondarie e spesso indesiderate di un'azione o trattamento",
+  "blocchi": [
+   332
+  ],
+  "confidenza": 0.78,
+  "stato": "pubblicata",
+  "note": "Blocco isolato senza contesto esplicito.",
+  "direzione": "en>it"
+ },
+ {
+  "tipo": "espressione",
+  "lemma": "to give someone a hand",
+  "forma_prof": "To Give a hand",
+  "traduzione_prof": "means to help someone",
+  "traduzione": "dare una mano, aiutare qualcuno",
+  "definizione": "Espressione idiomatica: aiutare qualcuno",
+  "blocchi": [
+   334
+  ],
+  "confidenza": 0.95,
+  "stato": "pubblicata",
+  "direzione": "en>it"
+ },
+ {
+  "tipo": "espressione",
+  "lemma": "to shake hands",
+  "forma_prof": "To Shake hands",
+  "traduzione": "stringere la mano",
+  "definizione": "Gesto di saluto o accordo in cui due persone si stringono la mano",
+  "blocchi": [
+   335
+  ],
+  "confidenza": 0.92,
+  "stato": "pubblicata",
+  "direzione": "en>it"
+ },
+ {
+  "tipo": "espressione",
+  "direzione": "en>it",
+  "lemma": "to pat someone on the shoulder",
+  "forma_prof": "To pat their shoulder",
+  "traduzione": "dare una pacca sulla spalla a qualcuno",
+  "definizione": "toccare leggermente la spalla di qualcuno come gesto di incoraggiamento o conforto",
+  "blocchi": [
+   336
+  ],
+  "confidenza": 0.88,
+  "stato": "pubblicata"
+ },
+ {
+  "tipo": "termine",
+  "lemma": "pun",
+  "forma_prof": "PUN",
+  "traduzione_prof": "a pun is a play on words - word play",
+  "traduzione": "gioco di parole",
+  "definizione": "Figura retorica che sfrutta la somiglianza fonetica o semantica tra parole diverse per effetto comico",
+  "ipa": "pʌn",
+  "esempi": [
+   "it's a two tyred bike"
+  ],
+  "blocchi": [
+   338,
+   340,
+   341
+  ],
+  "confidenza": 0.98,
+  "stato": "pubblicata",
+  "note": "Il blocco 341 contiene il pun 'two tyred': 'tyred' suona come 'tired' (stanco) ma contiene 'tyre' (pneumatico). Il blocco 340 'Tyre -' introduce la parola chiave del gioco.",
+  "direzione": "en>it"
+ },
+ {
+  "tipo": "coppia",
+  "direzione": "en>it",
+  "elementi": [
+   "tyre",
+   "tired"
+  ],
+  "forma_prof": "Tyre - / tired",
+  "traduzione": "pneumatico / stanco",
+  "differenza": "omofoni o quasi-omofoni usati nel pun: 'two-tyred' (a due ruote) suona come 'two-tired' (molto stanco), base del gioco di parole sulla bici",
+  "ipa": "taɪər",
+  "esempi": [
+   "Bicycles can't stand alone because they are two-tired."
+  ],
+  "blocchi": [
+   340,
+   341,
+   342,
+   343
+  ],
+  "confidenza": 0.95,
+  "stato": "pubblicata",
+  "note": "il blocco 343 riporta il pun completo in grassetto, che costituisce l'esempio canonico"
+ },
+ {
+  "tipo": "espressione",
+  "direzione": "en>it",
+  "lemma": "to lose interest",
+  "forma_prof": "Bankers easily lose interest",
+  "traduzione": "perdere interesse / non fruttare più interessi",
+  "definizione": "doppio senso: smettere di essere interessato a qualcosa oppure (per una banca) non generare più interessi finanziari",
+  "esempi": [
+   "Bankers easily lose interest."
+  ],
+  "blocchi": [
+   344
+  ],
+  "confidenza": 0.9,
+  "stato": "pubblicata",
+  "note": "esempio di pun: 'interest' vale sia interesse emotivo sia interesse bancario"
+ },
+ {
+  "tipo": "termine",
+  "direzione": "en>it",
+  "lemma": "interest",
+  "forma_prof": "What pays / gives you an interest? / A percentage of GAIN",
+  "traduzione": "interesse (bancario); guadagno percentuale su un capitale",
+  "definizione": "rendimento finanziario espresso come percentuale del capitale investito o prestato",
+  "blocchi": [
+   347,
+   348
+  ],
+  "confidenza": 0.85,
+  "stato": "pubblicata",
+  "note": "la prof distingue il significato finanziario di 'interest' da quello emotivo, in contesto del pun sui banchieri"
+ },
+ {
+  "tipo": "phrasal_verb",
+  "direzione": "en>it",
+  "lemma": "hang out",
+  "forma_prof": "hanging out with my friends",
+  "traduzione": "stare in giro con gli amici, passare il tempo con qualcuno in modo informale",
+  "definizione": "trascorrere il tempo in modo rilassato con qualcuno senza uno scopo preciso",
+  "esempi": [
+   "We just chat and chill / hang out with friends."
+  ],
+  "blocchi": [
+   350,
+   351
+  ],
+  "confidenza": 0.9,
+  "stato": "pubblicata"
+ },
+ {
+  "tipo": "espressione",
+  "direzione": "en>it",
+  "lemma": "chat and chill",
+  "forma_prof": "wew just chat and chill",
+  "traduzione": "chiacchierare e rilassarsi",
+  "definizione": "espressione informale per indicare il passare il tempo in modo tranquillo e senza impegni",
+  "blocchi": [
+   351
+  ],
+  "confidenza": 0.8,
+  "stato": "pubblicata",
+  "note": "forma_prof contiene refuso 'wew' per 'we'; confidenza leggermente ridotta"
+ },
+ {
+  "tipo": "termine",
+  "direzione": "en>it",
+  "lemma": "shift",
+  "forma_prof": "shift",
+  "traduzione": "turno (di lavoro)",
+  "definizione": "periodo di lavoro continuato, solitamente parte di una rotazione tra lavoratori",
+  "ipa": "ʃɪft",
+  "blocchi": [
+   352
+  ],
+  "confidenza": 0.65,
+  "stato": "pubblicata",
+  "note": "blocco isolato senza contesto esplicito; il senso 'turno di lavoro' è il più plausibile dato il contesto dei blocchi vicini sul lavoro e i viaggi"
+ },
+ {
+  "tipo": "regola",
+  "direzione": "en>it",
+  "titolo": "Present Perfect Continuous con FOR e SINCE",
+  "spiegazione": "Si usa il Present Perfect Continuous (have/has been + -ing) per indicare un'azione iniziata nel passato e ancora in corso. FOR introduce una durata, SINCE introduce un punto di inizio.",
+  "esempi": [
+   "I've been travelling for 4 years.",
+   "I've been travelling since 2022."
+  ],
+  "blocchi": [
+   354,
+   355,
+   356
+  ],
+  "confidenza": 0.92,
+  "stato": "pubblicata"
+ },
+ {
+  "tipo": "espressione",
+  "direzione": "en>it",
+  "lemma": "compared to",
+  "forma_prof": "Compared to other colleagues",
+  "traduzione": "rispetto a, a confronto con",
+  "definizione": "preposizione complessa usata per mettere a confronto due elementi",
+  "esempi": [
+   "Compared to other colleagues, he travels more often."
+  ],
+  "blocchi": [
+   357
+  ],
+  "confidenza": 0.82,
+  "stato": "pubblicata"
+ },
+ {
+  "tipo": "espressione",
+  "direzione": "en>it",
+  "lemma": "to graduate from",
+  "forma_prof": "He graduated from high school / university",
+  "traduzione": "diplomarsi / laurearsi",
+  "definizione": "completare con successo un ciclo di studi; si usa con FROM seguito dall'istituzione",
+  "esempi": [
+   "He graduated from high school.",
+   "He graduated from university.",
+   "He graduated from high school",
+   "He graduated from university"
+  ],
+  "blocchi": [
+   360
+  ],
+  "confidenza": 0.95,
+  "stato": "pubblicata",
+  "note": "la prof propone entrambe le varianti: diploma di scuola superiore e laurea universitaria"
+ },
+ {
+  "tipo": "termine",
+  "direzione": "en>it",
+  "lemma": "attorney",
+  "forma_prof": "attorney",
+  "traduzione": "avvocato (AmE), procuratore legale",
+  "definizione": "professionista legale abilitato a rappresentare clienti in giudizio; termine prevalentemente americano",
+  "ipa": "əˈtɜːrni",
+  "variante": "AmE",
+  "blocchi": [
+   362
+  ],
+  "confidenza": 0.7,
+  "stato": "pubblicata",
+  "note": "blocco isolato senza contesto; estratto come termine singolo. Possibile confronto con 'lawyer' / 'solicitor' non esplicitato negli appunti",
+  "vedi_anche": "attorney/lawyer"
+ },
+ {
+  "tipo": "coppia",
+  "direzione": "en>it",
+  "elementi": [
+   "attorney",
+   "lawyer"
+  ],
+  "forma_prof": "attorney / lawyer",
+  "traduzione_prof": "all attorneys are lawyers, but not all lawyers are attorneys",
+  "differenza": "'Lawyer' è il termine generico per chi ha studiato legge; 'attorney' (AmE) è specificamente chi ha superato il bar exam ed è abilitato a esercitare in tribunale. Tutti gli attorney sono lawyer, ma non viceversa.",
+  "esempi": [
+   "all attorneys are lawyers, but not all lawyers are attorneys",
+   "law school - lawyer",
+   "To pass the bar to become an attorney",
+   "in order to practice law, you must be an attorney"
+  ],
+  "blocchi": [
+   362,
+   363,
+   364,
+   365,
+   366,
+   367
+  ],
+  "confidenza": 0.97,
+  "stato": "pubblicata"
+ },
+ {
+  "tipo": "coppia",
+  "direzione": "en>it",
+  "elementi": [
+   "sidewalk",
+   "pavement"
+  ],
+  "traduzione_prof": "sidewalk - american / pavement - british",
+  "differenza": "'Sidewalk' è il termine americano per marciapiede; 'pavement' è il termine britannico equivalente.",
+  "variante": "AmE | BrE",
+  "blocchi": [
+   369,
+   370
+  ],
+  "confidenza": 0.97,
+  "stato": "pubblicata"
+ },
+ {
+  "tipo": "regola",
+  "titolo": "Usi dei tempi verbali: present simple, past simple, present continuous, present perfect, past perfect",
+  "spiegazione": "Present simple per abitudini/routine; past simple per azioni concluse in un momento definito nel passato; present continuous per azioni in corso ora; present perfect per azioni con risultato nel presente (momento non specificato); past perfect per azioni avvenute prima di un altro evento passato.",
+  "esempi": [
+   "I go to work every day (present simple – abitudine)",
+   "I went yesterday (past simple – momento definito)",
+   "I'm going to the shops now (present continuous – azione in corso)",
+   "Lucy has gone to work (present perfect – è al lavoro adesso, non sappiamo quando è partita)",
+   "I had already gone to London before going in June (past perfect – anteriorità rispetto a un altro passato)",
+   "I had already left when you arrived",
+   "They had already had dinner when I saw them outside the restaurant",
+   "I had already left when you arrived.",
+   "They had already had dinner when I saw them outside the restaurant.",
+   "Had they already had dinner when you saw them outside the restaurant?"
+  ],
+  "blocchi": [
+   375,
+   376,
+   377,
+   378,
+   379,
+   381,
+   382,
+   383,
+   384,
+   385,
+   386,
+   387,
+   388,
+   389
+  ],
+  "confidenza": 0.97,
+  "stato": "pubblicata",
+  "note": "I blocchi 381, 382, 384, 385, 386 includono frasi in italiano con la traduzione inglese, utili come esercizio di traduzione it>en per il past perfect. Il blocco 383 ('I was in Fano this morning') illustra il past simple con riferimento temporale definito. Il blocco 386 sembra una ripetizione/domanda della frase del blocco 384, probabilmente usata come verifica in classe."
+ },
+ {
+  "tipo": "regola",
+  "titolo": "Condizionale passato: 'would have' vs 'would have had'",
+  "spiegazione": "Distinzione tra il condizionale composto semplice ('I would have') e quello con il verbo 'have' come verbo principale ('I would have had'). Il secondo aggiunge un ulteriore 'had' perché 'have/had' funge da verbo lessicale, non ausiliare.",
+  "esempi": [
+   "I would have a lot of problems using this tense.",
+   "I would have had a lot [of problems]."
+  ],
+  "blocchi": [
+   390,
+   391
+  ],
+  "confidenza": 0.75,
+  "stato": "pubblicata",
+  "note": "I blocchi sembrano illustrare la differenza tra condizionale presente e condizionale passato tramite la stessa frase. Il blocco 391 è troncato; il completamento 'of problems' è inferito dal blocco 390."
+ },
+ {
+  "tipo": "coppia",
+  "elementi": [
+   "pick up",
+   "drop off"
+  ],
+  "differenza": "'Pick up' significa andare a prendere qualcuno con un mezzo; 'drop off' significa lasciare/accompagnare qualcuno a destinazione. Sono spesso usati insieme per descrivere l'intera tratta.",
+  "esempi": [
+   "You can pick me up in front of the gas station and drop me off in Fano."
+  ],
+  "blocchi": [
+   395
+  ],
+  "confidenza": 0.95,
+  "stato": "pubblicata",
+  "direzione": "en>it"
+ },
+ {
+  "tipo": "lettura",
+  "titolo": "Having a motorcycle improves physical well-being / Having a motorcycle saves you time",
+  "blocchi": [
+   397,
+   398,
+   399,
+   400
+  ],
+  "espressioni_evidenziate": [
+   "it improves mental and physical well-being",
+   "positive stimuli for the brain",
+   "activates the cardiovascular system",
+   "keeps your attention span high",
+   "lets you slip in and out of traffic",
+   "you'll have no more problems finding a spot",
+   "use roads with traffic restrictions"
+  ],
+  "confidenza": 0.95,
+  "stato": "pubblicata",
+  "note": "L'articolo sembra completo nei due paragrafi visibili. Il blocco 397 è il titolo del primo paragrafo (398) e il blocco 399 è il titolo del secondo paragrafo (400). Verificare se l'articolo continua oltre il blocco 400."
+ }
+]

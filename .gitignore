@@ -1,0 +1,18 @@
+# credenziali: non devono MAI entrare nel repository
+englishai-*.json
+*credentials*.json
+*service-account*.json
+
+# roba locale e rigenerabile
+__pycache__/
+*.zip
+*.html
+.~lock.*
+appunti.docx
+blocks.json
+voci_grezze.json
+voci_nuove.json
+riferimento.json
+fusioni.json
+decisioni.json
+sync.yml
