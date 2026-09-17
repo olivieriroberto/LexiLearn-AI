@@ -1,16 +1,20 @@
 [
  {
-  "tipo": "termine",
+  "tipo": "espressione",
   "direzione": "it>en",
   "lemma": "there are 4 of them",
   "forma_prof": "sono in 4 - there are 4 of them",
   "traduzione_prof": "sono in 4",
   "traduzione": "there are 4 of them",
-  "definizione": "modo di rendere in inglese la costruzione italiana 'essere in + numero'",
-  "blocchi": [
-   0
+  "definizione": "resa inglese dell'italiano 'essere in + numero' per indicare quante persone ci sono in un gruppo",
+  "esempi": [
+   "sono in 4 → there are 4 of them"
   ],
-  "confidenza": 0.85,
+  "blocchi": [
+   0,
+   14
+  ],
+  "confidenza": 0.95,
   "stato": "pubblicata"
  },
  {
@@ -20,15 +24,17 @@
    "early bird",
    "night owl"
   ],
-  "forma_prof": "Early bird - / Night owls -",
-  "differenza": "'early bird' è chi preferisce le ore mattutine; 'night owl' è chi è più produttivo o attivo di notte",
+  "traduzione": "persona mattiniera / persona che fa le ore piccole",
+  "differenza": "early bird: chi si sveglia presto e sfrutta le prime ore del giorno; night owl: chi è più attivo la notte e va a letto tardi",
   "blocchi": [
    1,
-   2
+   2,
+   15,
+   16
   ],
   "confidenza": 0.88,
   "stato": "pubblicata",
-  "note": "entrambe le spiegazioni dopo il trattino mancano negli appunti; i due termini hanno senso come coppia contrapposta"
+  "note": "entrambe le voci sono incomplete negli appunti (trattino finale senza spiegazione); il significato è comunque noto e la coppia è coerente; confidenza ridotta per mancanza della glossa della prof"
  },
  {
   "tipo": "phrasal_verb",
@@ -42,6 +48,25 @@
    3
   ],
   "confidenza": 0.95,
+  "stato": "pubblicata"
+ },
+ {
+  "tipo": "phrasal_verb",
+  "direzione": "en>it",
+  "lemma": "pull over",
+  "forma_prof": "TO PULL OVER",
+  "traduzione_prof": "accostare",
+  "traduzione": "accostare, accostarsi (con un veicolo)",
+  "definizione": "spostarsi ai margini della strada e fermarsi",
+  "ipa": "pʊl ˈəʊvə",
+  "esempi": [
+   "He pulled over to check the map"
+  ],
+  "blocchi": [
+   3,
+   4
+  ],
+  "confidenza": 0.99,
   "stato": "pubblicata"
  },
  {
@@ -82,6 +107,19 @@
  {
   "tipo": "termine",
   "direzione": "en>it",
+  "lemma": "reliable",
+  "forma_prof": "RELIABLE",
+  "traduzione_prof": "affidabile",
+  "ipa": "rɪˈlaɪəbl",
+  "blocchi": [
+   6
+  ],
+  "confidenza": 0.99,
+  "stato": "pubblicata"
+ },
+ {
+  "tipo": "termine",
+  "direzione": "en>it",
   "lemma": "to provide",
   "forma_prof": "TO PROVIDE - fornire",
   "traduzione_prof": "fornire",
@@ -90,6 +128,24 @@
    8
   ],
   "confidenza": 0.95,
+  "stato": "pubblicata"
+ },
+ {
+  "tipo": "coppia",
+  "direzione": "en>it",
+  "elementi": [
+   "wrench",
+   "spanner"
+  ],
+  "traduzione_prof": "chiave inglese",
+  "traduzione": "chiave inglese (wrench = AmE, spanner = BrE)",
+  "differenza": "stessa parola in due varianti: wrench è il termine americano, spanner quello britannico",
+  "variante": "AmE | BrE",
+  "blocchi": [
+   8,
+   9
+  ],
+  "confidenza": 0.97,
   "stato": "pubblicata"
  },
  {
@@ -124,6 +180,22 @@
   "confidenza": 0.85,
   "stato": "pubblicata",
   "note": "il blocco 12 manca del verbo 'works'; forma corretta: 'make sure that everything works smoothly'"
+ },
+ {
+  "tipo": "coppia",
+  "direzione": "en>it",
+  "elementi": [
+   "tight",
+   "loose"
+  ],
+  "traduzione": "stretto / allentato",
+  "differenza": "termini opposti usati ad esempio per viti o bulloni: tight = serrato, loose = allentato",
+  "blocchi": [
+   11
+  ],
+  "confidenza": 0.85,
+  "stato": "pubblicata",
+  "note": "la prof ha elencato i due termini senza spiegazione esplicita; il contesto meccanico (chiave inglese nei blocchi precedenti) suggerisce il significato; confidenza leggermente ridotta per mancanza di glossa"
  },
  {
   "tipo": "espressione",
