@@ -1,0 +1,113 @@
+"""
+Il pezzo che rende il sistema utilizzabile davvero: sincronizzare senza
+rifare tutto.
+
+  python sync.py                    usa DOC_ID dall'ambiente
+  python sync.py appunti.docx       prova in locale su un file
+  python sync.py --forza            rilegge tutto da capo
+
+Tre filtri in cascata, dal piu' economico al piu' caro:
+
+  1. la data di modifica del documento: se non e' cambiata, fine.
+  2. gli hash dei blocchi: al modello vanno solo quelli mai visti.
+  3. la fusione: le voci nuove si innestano su quelle esistenti.
+
+Lo stato vive in stato.json, che nel flusso automatico viene riscritto nel
+repository a ogni giro: e' la memoria fra un'esecuzione e l'altra.
+"""
+
+import json
+import os
+import sys
+from datetime import datetime, timezone
+
+import merge
+import prep
+import sito
+
+STATO = "stato.json"
+DIZIONARIO = "dizionario.json"
+NUOVE = "voci_nuove.json"
+CONTESTO = 5   # blocchi gia' noti mandati come cornice di quelli nuovi
+
+
+def carica_stato():
+    if os.path.exists(STATO):
+        return json.load(open(STATO, encoding="utf-8"))
+    return {"modificato": None, "hash_visti": [], "giri": []}
+
+
+def salva_stato(stato, blocks, nuove):
+    stato["hash_visti"] = sorted({b.hash for b in blocks}
+                                 | set(stato.get("hash_visti", [])))
+    stato["giri"] = (stato.get("giri", []) + [{
+        "quando": datetime.now(timezone.utc).isoformat(timespec="seconds"),
+        "blocchi_nuovi": len(nuove),
+    }])[-20:]
+    json.dump(stato, open(STATO, "w", encoding="utf-8"),
+              ensure_ascii=False, indent=1)
+
+
+def sincronizza(sorgente=None, forza=False):
+    sorgente = sorgente or os.environ.get("DOC_ID")
+    creds = os.environ.get("GOOGLE_CREDENTIALS_FILE")
+    if not sorgente:
+        sys.exit("Manca DOC_ID (o il percorso di un .docx come argomento).")
+
+    stato = carica_stato()
+
+    # --- filtro 1: la data di modifica -------------------------------------
+    if not sorgente.lower().endswith(".docx"):
+        modificato, titolo = prep.doc_last_modified(sorgente, creds)
+        print(f"documento: {titolo}")
+        print(f"ultima modifica: {modificato}")
+        if not forza and modificato == stato.get("modificato"):
+            print("nessuna modifica dall'ultimo giro: non c'e' niente da fare.")
+            return False
+        stato["modificato"] = modificato
+
+    # --- filtro 2: gli hash dei blocchi ------------------------------------
+    blocks = prep.prepare(sorgente, creds)
+    visti = set() if forza else set(stato.get("hash_visti", []))
+    nuovi = [b for b in blocks if b.hash not in visti]
+    print(f"blocchi: {len(blocks)} totali, {len(nuovi)} mai visti")
+
+    if not nuovi:
+        salva_stato(stato, blocks, [])
+        print("il documento e' cambiato ma nessun blocco e' nuovo "
+              "(riordini o ritocchi): niente da estrarre.")
+        return False
+
+    # Ai blocchi nuovi si affiancano alcuni vicini gia' noti: una voce nasce
+    # quasi sempre da un gruppo di righe, e senza cornice il modello vede
+    # meta' dei gruppi tagliata.
+    indici = {b.idx for b in nuovi}
+    for b in nuovi:
+        for i in range(b.idx - CONTESTO, b.idx + CONTESTO + 1):
+            indici.add(i)
+    finestra = [b for b in blocks if b.idx in indici]
+    print(f"inviati al modello: {len(finestra)} (con {CONTESTO} di cornice)")
+
+    # --- estrazione e fusione ---------------------------------------------
+    # Importato qui e non in testa: serve solo quando c'e' da estrarre.
+    from extract import estrai
+
+    voci = estrai(finestra)
+    json.dump(voci, open(NUOVE, "w", encoding="utf-8"),
+              ensure_ascii=False, indent=1)
+    print(f"voci grezze: {len(voci)}")
+
+    esistenti = DIZIONARIO if os.path.exists(DIZIONARIO) else None
+    merge.run([esistenti, NUOVE] if esistenti else [NUOVE])
+
+    sito.genera(DIZIONARIO, "dizionario.html")
+    salva_stato(stato, blocks, nuovi)
+    return True
+
+
+if __name__ == "__main__":
+    argomenti = [a for a in sys.argv[1:] if not a.startswith("--")]
+    cambiato = sincronizza(argomenti[0] if argomenti else None,
+                           forza="--forza" in sys.argv)
+    # Codice 0 comunque: "nessuna modifica" non e' un errore.
+    print("aggiornato." if cambiato else "invariato.")
