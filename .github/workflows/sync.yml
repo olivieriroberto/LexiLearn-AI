@@ -1,0 +1,86 @@
+name: Sincronizza il dizionario
+
+on:
+  schedule:
+    # Ogni 30 minuti. Attenzione: le pianificazioni di GitHub sono "al
+    # meglio possibile", non puntuali: nelle ore di punta possono slittare
+    # di parecchi minuti. Per un dizionario di lezioni non cambia nulla.
+    - cron: "*/30 * * * *"
+  workflow_dispatch:      # per lanciarla a mano dalla scheda Actions
+    inputs:
+      forza:
+        description: "Rileggere tutto il documento da capo"
+        type: boolean
+        default: false
+
+# Un solo giro alla volta: due esecuzioni in parallelo si sovrascriverebbero
+# lo stato a vicenda.
+concurrency:
+  group: sincronizza
+  cancel-in-progress: false
+
+permissions:
+  contents: write     # per ricommettere stato.json e dizionario.json
+  pages: write
+  id-token: write
+
+jobs:
+  sincronizza:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - run: pip install -r requirements.txt
+
+      - name: Preparo le credenziali di Google
+        env:
+          GOOGLE_CREDENTIALS: ${{ secrets.GOOGLE_CREDENTIALS }}
+        run: |
+          # Il JSON dell'account di servizio sta in un segreto, mai nel repo.
+          printf '%s' "$GOOGLE_CREDENTIALS" > /tmp/google.json
+
+      - name: Sincronizzo
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          GOOGLE_CREDENTIALS_FILE: /tmp/google.json
+          DOC_ID: ${{ secrets.DOC_ID }}
+        run: |
+          python sync.py ${{ inputs.forza && '--forza' || '' }}
+
+      - name: Preparo la pagina da pubblicare
+        run: |
+          mkdir -p public
+          # Se non e' cambiato nulla, dizionario.html non viene rigenerato:
+          # si ripubblica quello gia' committato.
+          python sito.py dizionario.json public/index.html
+
+      - name: Salvo lo stato nel repository
+        run: |
+          git config user.name "sincronizzazione"
+          git config user.email "actions@github.com"
+          git add stato.json dizionario.json voci_nuove.json 2>/dev/null || true
+          if git diff --staged --quiet; then
+            echo "niente da salvare"
+          else
+            git commit -m "Aggiornamento dal documento della lezione"
+            git push
+          fi
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: public
+
+  pubblica:
+    needs: sincronizza
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - id: deploy
+        uses: actions/deploy-pages@v4
