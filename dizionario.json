@@ -37,6 +37,34 @@
   "note": "entrambe le voci sono incomplete negli appunti (trattino finale senza spiegazione); il significato è comunque noto e la coppia è coerente; confidenza ridotta per mancanza della glossa della prof"
  },
  {
+  "tipo": "termine",
+  "direzione": "en>it",
+  "lemma": "jumpscare",
+  "traduzione_prof": "spavento che fa saltare sulla sedia",
+  "traduzione": "spavento improvviso (tipico degli horror) che fa trasalire",
+  "definizione": "effetto di paura improvvisa, tipico di film horror o videogiochi, che fa sobbalzare lo spettatore",
+  "blocchi": [
+   1
+  ],
+  "confidenza": 0.95,
+  "stato": "pubblicata",
+  "aggiunta": "2026-09-24"
+ },
+ {
+  "tipo": "termine",
+  "direzione": "en>it",
+  "lemma": "to hoist",
+  "traduzione_prof": "sollevare, innalzare",
+  "definizione": "sollevare qualcosa con forza o con un meccanismo",
+  "ipa": "hɔɪst",
+  "blocchi": [
+   2
+  ],
+  "confidenza": 0.95,
+  "stato": "pubblicata",
+  "aggiunta": "2026-09-24"
+ },
+ {
   "tipo": "phrasal_verb",
   "direzione": "en>it",
   "lemma": "to end up",
@@ -82,27 +110,29 @@
   "ipa": "dʒɒt daʊn",
   "blocchi": [
    3,
+   5,
    112
   ],
   "confidenza": 0.99,
   "stato": "pubblicata"
  },
  {
-  "tipo": "termine",
+  "tipo": "collocazione",
   "direzione": "en>it",
   "lemma": "backache",
   "forma_prof": "backache",
-  "traduzione": "mal di schiena",
-  "definizione": "dolore alla schiena",
-  "ipa": "ˈbækeɪk",
+  "traduzione_prof": "mal di schiena",
+  "definizione": "mal di schiena; si usa con il verbo 'have' e l'articolo indeterminativo: 'have a backache'",
   "esempi": [
    "You have a backache"
   ],
   "blocchi": [
-   4
+   4,
+   6
   ],
   "confidenza": 0.95,
-  "stato": "pubblicata"
+  "stato": "pubblicata",
+  "note": "Il blocco mette in evidenza la struttura 'have a backache', probabilmente per sottolineare l'uso dell'articolo indeterminativo, diverso dall'italiano."
  },
  {
   "tipo": "phrasal_verb",
@@ -126,16 +156,15 @@
   "tipo": "termine",
   "direzione": "en>it",
   "lemma": "frame",
-  "forma_prof": "frame",
-  "traduzione": "cornice, telaio, struttura",
-  "definizione": "struttura di sostegno o cornice di un oggetto",
+  "definizione": "cornice, telaio, fotogramma; contesto o struttura di riferimento",
   "ipa": "freɪm",
   "blocchi": [
-   5
+   5,
+   7
   ],
   "confidenza": 0.6,
   "stato": "pubblicata",
-  "note": "blocco isolato senza contesto, significato non specificato dalla prof; confidenza bassa"
+  "note": "Blocco isolato senza spiegazione né traduzione della prof. Il significato preciso nel contesto della lezione è incerto; confidenza bassa."
  },
  {
   "tipo": "coppia",
