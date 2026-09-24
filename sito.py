@@ -28,7 +28,14 @@ def arricchisci_letture(voci, percorso_blocchi):
     """Attacca a ogni lettura il testo dei suoi blocchi."""
     if not os.path.exists(percorso_blocchi):
         return 0
-    blocchi = {b["idx"]: b for b in        for i in sorted(v.get("blocchi", [])):
+    blocchi = {b["idx"]: b for b in
+               json.load(open(percorso_blocchi, encoding="utf-8"))}
+    fatte = 0
+    for v in voci:
+        if v.get("tipo") != "lettura":
+            continue
+        righe = []
+        for i in sorted(v.get("blocchi", [])):
             b = blocchi.get(i)
             if b and b.get("text"):
                 righe.append(blocchi_in_html(b["text"]))
@@ -133,6 +140,16 @@ button.suono{font:inherit;font-size:.85rem;cursor:pointer;background:none;
 }
 .vuoto{color:var(--tenue);padding:2rem 0}
 
+/* piede di pagina */
+footer{margin-top:3rem;padding-top:1rem;border-top:1px solid var(--riga);
+  color:var(--tenue);font-size:.85rem;display:flex;gap:.5rem 1.25rem;
+  flex-wrap:wrap;align-items:baseline;justify-content:space-between}
+footer a{color:var(--tenue);text-decoration:none;
+  border:1px solid var(--riga);border-radius:2rem;padding:.35rem .9rem}
+footer a:hover,footer a:focus-visible{color:var(--inchiostro);
+  border-color:var(--inchiostro)}
+footer .vecchio{color:var(--penna)}
+
 /* elenco compatto */
 .lettera{font-family:var(--serif);font-size:1.1rem;font-weight:600;
   color:var(--tenue);margin:1.5rem 0 .3rem;padding-bottom:.2rem;
@@ -222,6 +239,11 @@ details.lettura summary{cursor:pointer;padding:1.1rem 0;font-family:var(--serif)
 </div>
 
 <main id="elenco"></main>
+
+<footer>
+  <span id="aggiornato"></span>
+  <a id="lancia" href="#" hidden>Sincronizza ora</a>
+</footer>
 </div>
 
 <div id="ripasso" role="dialog" aria-modal="true" aria-label="Ripasso">
@@ -236,6 +258,8 @@ details.lettura summary{cursor:pointer;padding:1.1rem 0;font-family:var(--serif)
 
 <script>
 const VOCI = __DATI__;
+const GENERATO = "__GENERATO__";
+const REPO = "__REPO__";
 
 const nome = v => v.lemma || v.titolo || (v.elementi||[]).join(" / ")
   || (v.tipo === "gruppo_trattenuto" ? "Blocchi non estratti" : "");
@@ -453,6 +477,30 @@ function scaricaDecisioni(){
   a.click();
 }
 
+/* ---------- piede di pagina ----------
+   Quando e' stato rigenerato il dizionario, e come chiedere una
+   sincronizzazione subito senza aspettare il timer. Un pulsante che lanci
+   davvero il workflow richiederebbe un token dentro la pagina, che essendo
+   pubblica lo regalerebbe a chiunque: si apre invece la pagina di GitHub,
+   dove il pulsante c'e' gia' ed e' protetto dal login. */
+(function(){
+  if(GENERATO && !GENERATO.startsWith("__")){
+    const d = new Date(GENERATO);
+    const ore = (Date.now() - d) / 36e5;
+    const quando = ore < 1 ? "meno di un'ora fa"
+      : ore < 24 ? `${Math.round(ore)} ore fa`
+      : `${Math.round(ore/24)} giorni fa`;
+    aggiornato.textContent = "Aggiornato " + quando + ", il "
+      + d.toLocaleString("it-IT", {day:"numeric", month:"long",
+                                   hour:"2-digit", minute:"2-digit"});
+    if(ore > 12) aggiornato.className = "vecchio";
+  }
+  if(REPO && !REPO.startsWith("__")){
+    lancia.href = `https://github.com/${REPO}/actions/workflows/sync.yml`;
+    lancia.hidden = false;
+  }
+})();
+
 riassunto.textContent =
   `${pubbliche().length} voci dalle lezioni · ${coppie.length} coppie da non confondere`;
 disegna();
@@ -525,7 +573,13 @@ def genera(sorgente="dizionario.json", uscita="dizionario.html",
     voci = json.load(open(sorgente, encoding="utf-8"))
     letture = arricchisci_letture(voci, blocchi)
     dati = json.dumps(voci, ensure_ascii=False).replace("</", "<\\/")
-    pagina = TEMPLATE.replace("__DATI__", dati)
+    pagina = (TEMPLATE
+              .replace("__DATI__", dati)
+              .replace("__GENERATO__",
+                       datetime.now(timezone.utc).isoformat(timespec="seconds"))
+              # GITHUB_REPOSITORY lo imposta Actions. In locale resta vuoto e
+              # il collegamento non compare: non avrebbe senso.
+              .replace("__REPO__", os.environ.get("GITHUB_REPOSITORY", "")))
     open(uscita, "w", encoding="utf-8").write(pagina)
 
     print(f"{len(voci)} voci -> {uscita}  ({len(pagina)//1024} KB)")
