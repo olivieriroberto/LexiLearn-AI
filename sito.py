@@ -13,6 +13,7 @@ import json
 import os
 import re
 import sys
+from datetime import datetime, timezone
 
 
 def blocchi_in_html(testo):
@@ -27,14 +28,7 @@ def arricchisci_letture(voci, percorso_blocchi):
     """Attacca a ogni lettura il testo dei suoi blocchi."""
     if not os.path.exists(percorso_blocchi):
         return 0
-    blocchi = {b["idx"]: b for b in
-               json.load(open(percorso_blocchi, encoding="utf-8"))}
-    fatte = 0
-    for v in voci:
-        if v.get("tipo") != "lettura":
-            continue
-        righe = []
-        for i in sorted(v.get("blocchi", [])):
+    blocchi = {b["idx"]: b for b in        for i in sorted(v.get("blocchi", [])):
             b = blocchi.get(i)
             if b and b.get("text"):
                 righe.append(blocchi_in_html(b["text"]))
