@@ -31,6 +31,28 @@ NUOVE = "voci_nuove.json"
 CONTESTO = 5   # blocchi gia' noti mandati come cornice di quelli nuovi
 
 
+def segna_data_ingresso(prima):
+    """Mette la data di oggi sulle voci che non c'erano al giro precedente.
+
+    Una voce marcata una volta non cambia piu' data: `aggiunta` e' il giorno
+    in cui e' entrata nel dizionario, non l'ultima volta che e' stata
+    toccata. Le voci dello storico restano senza data e finiscono in fondo
+    all'ordinamento cronologico.
+    """
+    voci = json.load(open(DIZIONARIO, encoding="utf-8"))
+    oggi = datetime.now(timezone.utc).date().isoformat()
+    nuove = 0
+    for v in voci:
+        k = merge.key(v)
+        if k and k not in prima and not v.get("aggiunta"):
+            v["aggiunta"] = oggi
+            nuove += 1
+    if nuove:
+        json.dump(voci, open(DIZIONARIO, "w", encoding="utf-8"),
+                  ensure_ascii=False, indent=1)
+    return nuove
+
+
 def carica_stato():
     if os.path.exists(STATO):
         return json.load(open(STATO, encoding="utf-8"))
@@ -103,8 +125,20 @@ def sincronizza(sorgente=None, forza=False):
               ensure_ascii=False, indent=1)
     print(f"voci grezze: {len(voci)}")
 
+    # Di quali voci il dizionario disponeva PRIMA di questo giro: serve a
+    # riconoscere dopo la fusione quelle appena nate. La posizione nel
+    # documento non e' un indizio utile (la prof scrive dove capita, anche
+    # in cima), mentre la data di ingresso la decidiamo noi ed e' esatta.
     esistenti = DIZIONARIO if os.path.exists(DIZIONARIO) else None
+    prima = set()
+    if esistenti:
+        for v in json.load(open(DIZIONARIO, encoding="utf-8")):
+            if merge.key(v):
+                prima.add(merge.key(v))
+
     merge.run([esistenti, NUOVE] if esistenti else [NUOVE])
+    nuove = segna_data_ingresso(prima)
+    print(f"voci mai viste prima: {nuove}")
 
     sito.genera(DIZIONARIO, "dizionario.html")
     salva_stato(stato, blocks, nuovi)

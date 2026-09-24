@@ -79,6 +79,12 @@ def merge(a, b):
     # Se una delle due era in attesa, resta in attesa: prudenza.
     if "in_attesa" in (a.get("stato"), b.get("stato")):
         winner["stato"] = "in_attesa"
+    # La data di ingresso e' la piu' vecchia delle due: una voce rivista non
+    # torna a essere una novita'. Senza questo, la fusione la perderebbe
+    # ogni volta che a vincere e' la versione appena estratta.
+    date = [x.get("aggiunta") for x in (a, b) if x.get("aggiunta")]
+    if date:
+        winner["aggiunta"] = min(date)
     winner["confidenza"] = max(a.get("confidenza", 0), b.get("confidenza", 0))
     return winner
 

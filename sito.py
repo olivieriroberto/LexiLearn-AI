@@ -163,6 +163,13 @@ details.voce summary .v{font-family:var(--serif);font-weight:600;flex:0 0 auto}
 details.voce summary .t{color:var(--tenue);font-size:.9rem;
   overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 details.voce summary .r{margin-left:auto;color:var(--penna);font-size:.8rem;flex:0 0 auto}
+details.voce summary .n{margin-left:auto;font-size:.75rem;flex:0 0 auto;
+  background:var(--inchiostro);color:var(--carta);border-radius:2rem;
+  padding:.1rem .5rem}
+a.verifica{font-size:.85rem;color:var(--tenue);text-decoration:none;
+  border:1px solid var(--riga);border-radius:2px;padding:.1rem .45rem}
+a.verifica:hover,a.verifica:focus-visible{color:var(--inchiostro);
+  border-color:var(--inchiostro)}
 details.voce article{border:0;margin:0;padding-top:0}
 
 /* letture */
@@ -233,7 +240,7 @@ details.lettura summary{cursor:pointer;padding:1.1rem 0;font-family:var(--serif)
   <span class="sep"></span>
   <span>Ordine</span>
   <button id="bAlfa" aria-pressed="true">A-Z</button>
-  <button id="bLezione" aria-pressed="false">Per lezione</button>
+  <button id="bLezione" aria-pressed="false">Dalle piu' recenti</button>
   <span class="sep"></span>
   <span id="conteggio"></span>
 </div>
@@ -299,11 +306,32 @@ if(coppie.length){
 }
 
 /* ---------- comandi ---------- */
-const TIPI = [["", "Tutto"], ["coppia","Coppie"], ["regola","Regole"],
-              ["espressione","Espressioni"], ["termine","Parole"],
-              ["phrasal_verb","Phrasal verb"], ["collocazione","Collocazioni"],
-              ["lettura","Letture"], ["in_attesa","Da approvare"]];
+const TIPI = [["", "Tutto"], ["novita","Novita'"], ["coppia","Coppie"],
+              ["regola","Regole"], ["espressione","Espressioni"],
+              ["termine","Parole"], ["phrasal_verb","Phrasal verb"],
+              ["collocazione","Collocazioni"], ["lettura","Letture"],
+              ["da_verificare","Da verificare"], ["in_attesa","Da approvare"]];
 let filtro = "", vista = "elenco", ordine = "alfa";
+
+const GIORNI_NOVITA = 14;
+function etichettaData(iso){
+  if(iso === "storico") return "Gia' nel dizionario";
+  const d = new Date(iso + "T12:00:00"), g = giorniDa({aggiunta: iso});
+  if(g <= 0) return "Oggi";
+  if(g === 1) return "Ieri";
+  return d.toLocaleDateString("it-IT",
+    {weekday:"long", day:"numeric", month:"long"});
+}
+const incerta = v => v.divergenza
+  || (v.confidenza != null && v.confidenza < 0.7);
+// Giorni di calendario, non ore: contando le ore, una voce di ieri sera
+// dista meno di 24 ore e finirebbe sotto "Oggi".
+const isoLocale = d =>
+  new Date(d.getTime() - d.getTimezoneOffset()*6e4).toISOString().slice(0,10);
+const OGGI = isoLocale(new Date());
+const giorniDa = v => v.aggiunta
+  ? Math.round((new Date(OGGI) - new Date(v.aggiunta)) / 864e5) : Infinity;
+const recente = v => giorniDa(v) <= GIORNI_NOVITA;
 
 filtri.innerHTML = TIPI.map(([k,e]) =>
   `<button data-k="${k}" aria-pressed="${k===""}">${e}</button>`).join("")
@@ -329,11 +357,19 @@ bAlfa.onclick   = () => { ordine = "alfa"; disegna(); };
 bLezione.onclick= () => { ordine = "lezione"; disegna(); };
 
 /* ---------- schede ---------- */
+/* Un dizionario esterno per controllare cio' che l'estrazione ha
+   ricostruito: WordReference e' quello che risponde meglio dall'inglese
+   verso l'italiano, comprese le locuzioni. */
+const verifica = t => `<a class="verifica" target="_blank" rel="noopener"
+  href="https://www.wordreference.com/enit/${encodeURIComponent(
+    t.replace(/^(to|a|an|the)\s+/i, "").trim())}">verifica</a>`;
+
 function corpo(v){
   let dentro = "";
   if(v.tipo === "coppia"){
     const el = v.elementi || [], lato = t =>
-      `<b>${t}</b><button class="suono" data-dire="${t}">ascolta</button>`;
+      `<b>${t}</b><button class="suono" data-dire="${t}">ascolta</button>
+       ${verifica(t)}`;
     dentro = `<div class="confronto">
         <div>${lato(el[0]||"")}</div><div class="barra"></div>
         <div>${el[1] ? lato(el[1]) : ""}</div></div>
@@ -352,6 +388,7 @@ function corpo(v){
         <span class="lemma">${nome(v)}</span>
         ${v.ipa ? `<span class="ipa">${v.ipa}</span>` : ""}
         <button class="suono" data-dire="${nome(v)}">ascolta</button>
+        ${verifica(nome(v))}
         <span class="tipo">${(v.tipo||"").replace("_"," ")}</span></div>
       ${v.traduzione ? `<p class="trad">${v.traduzione}</p>` : ""}
       ${v.definizione ? `<p class="def">${v.definizione}</p>` : ""}`;
@@ -395,35 +432,56 @@ function lettura(v){
 
 function riga(v){
   const trad = v.traduzione || v.traduzione_prof || v.differenza || v.spiegazione || "";
-  const rosso = v.divergenza || (v.confidenza != null && v.confidenza < 0.7)
-    ? "da verificare" : "";
+  const marca = incerta(v) ? `<span class="r">da verificare</span>`
+    : recente(v) ? `<span class="n">nuovo</span>` : "";
   return `<details class="voce"><summary>
       <span class="v">${nome(v)}</span>
       <span class="t">${trad}</span>
-      ${rosso ? `<span class="r">${rosso}</span>` : ""}
+      ${marca}
     </summary>${scheda(v)}</details>`;
 }
 
 /* ---------- disegno ---------- */
 function disegna(){
   coppiaDiBottoni(bElenco, bSchede, "elenco", "schede", vista);
-  coppiaDiBottoni(bAlfa, bLezione, "alfa", "lezione", ordine);
+  // Le novita' sono per forza cronologiche: i pulsanti lo devono mostrare.
+  coppiaDiBottoni(bAlfa, bLezione, "alfa", "lezione",
+                  filtro === "novita" ? "lezione" : ordine);
 
   const q = cerca.value.trim().toLowerCase();
   const attesa = filtro === "in_attesa";
   let lista = attesa ? inAttesa()
+    : filtro === "novita" ? pubbliche().filter(recente)
+    : filtro === "da_verificare" ? pubbliche().filter(incerta)
     : pubbliche().filter(v => !filtro || v.tipo === filtro);
   if(q) lista = lista.filter(v => testo(v).includes(q));
 
-  lista = [...lista].sort((a,b) => ordine === "alfa"
-    ? ordinabile(a).localeCompare(ordinabile(b))
-    : Math.min(...(a.blocchi||[999])) - Math.min(...(b.blocchi||[999])));
+  // Le novita' e l'ordine cronologico si appoggiano alla data di ingresso
+  // nel dizionario, non alla posizione nel documento: la prof scrive dove
+  // capita, e da li' non si ricava quando una cosa e' stata insegnata.
+  const perData = (a,b) => (b.aggiunta||"").localeCompare(a.aggiunta||"")
+    || ordinabile(a).localeCompare(ordinabile(b));
+  lista = [...lista].sort(
+    (filtro === "novita" || ordine === "lezione")
+      ? perData
+      : (a,b) => ordinabile(a).localeCompare(ordinabile(b)));
 
   conteggio.textContent = `${lista.length} voci`;
 
   if(!lista.length){
-    elenco.innerHTML = `<p class="vuoto">Nessuna voce per «${cerca.value}».
-      Prova con la traduzione italiana.</p>`;
+    const spiegazione = q
+      ? `Nessuna voce per «${cerca.value}». Prova con la traduzione italiana.`
+      : filtro === "novita"
+        ? (VOCI.some(v => v.aggiunta)
+           ? `Niente di nuovo negli ultimi ${GIORNI_NOVITA} giorni.`
+           : "Le novita' compaiono dalla prossima lezione in poi: le voci "
+             + "gia' presenti non hanno una data di ingresso.")
+      : filtro === "da_verificare"
+        ? "Nessuna voce dubbia: il dizionario e' tutto confermato."
+      : filtro === "in_attesa"
+        ? "Nessuna voce in attesa."
+      : "Nessuna voce.";
+    elenco.innerHTML = `<p class="vuoto">${spiegazione}</p>`;
     return;
   }
 
@@ -433,6 +491,12 @@ function disegna(){
       Le decisioni restano su questo dispositivo finche' non c'e' un archivio
       condiviso: scaricale se vuoi conservarle.
       <br><button onclick="scaricaDecisioni()">Scarica le decisioni</button>
+    </div>`
+    : filtro === "da_verificare" ? `<div class="pannello">
+      Voci che la prof ha lasciato a meta', o dove la sua traduzione non
+      corrispondeva: sono ricostruzioni, e possono sbagliare. Ogni scheda ha
+      il collegamento a WordReference per il controllo; il dubbio che resta,
+      chiedilo a lezione.
     </div>` : "";
 
   let corpoHtml = "";
@@ -444,9 +508,13 @@ function disegna(){
     let lettera = "";
     for(const v of lista){
       if(v.tipo === "lettura"){ corpoHtml += lettura(v); continue; }
-      if(ordine === "alfa" && primaLettera(v) !== lettera){
-        lettera = primaLettera(v);
-        corpoHtml += `<p class="lettera">${lettera}</p>`;
+      const cronologico = filtro === "novita" || ordine === "lezione";
+      const testa = cronologico
+        ? (v.aggiunta || "storico") : primaLettera(v);
+      if(testa !== lettera){
+        lettera = testa;
+        corpoHtml += `<p class="lettera">${
+          cronologico ? etichettaData(lettera) : lettera}</p>`;
       }
       corpoHtml += riga(v);
     }
