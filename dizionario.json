@@ -44,9 +44,10 @@
   "traduzione": "spavento improvviso (tipico degli horror) che fa trasalire",
   "definizione": "effetto di paura improvvisa, tipico di film horror o videogiochi, che fa sobbalzare lo spettatore",
   "blocchi": [
-   1
+   1,
+   7
   ],
-  "confidenza": 0.95,
+  "confidenza": 0.97,
   "stato": "pubblicata",
   "aggiunta": "2026-09-24"
  },
@@ -58,9 +59,10 @@
   "definizione": "sollevare qualcosa con forza o con un meccanismo",
   "ipa": "hɔɪst",
   "blocchi": [
-   2
+   2,
+   8
   ],
-  "confidenza": 0.95,
+  "confidenza": 0.97,
   "stato": "pubblicata",
   "aggiunta": "2026-09-24"
  },
