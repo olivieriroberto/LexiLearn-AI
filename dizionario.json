@@ -586,7 +586,8 @@
   ],
   "confidenza": 0.96,
   "note": "La prof elenca collocazioni tipiche di 'lose' con parti del corpo e stati emotivi.",
-  "aggiunta": "2026-10-01"
+  "aggiunta": "2026-10-01",
+  "vedi_anche": "lose/miss"
  },
  {
   "tipo": "termine",
@@ -1171,6 +1172,19 @@
   "stato": "pubblicata"
  },
  {
+  "tipo": "espressione",
+  "direzione": "en>it",
+  "lemma": "lose your virginity",
+  "forma_prof": "You can lose your virginity",
+  "traduzione": "perdere la verginità",
+  "blocchi": [
+   30
+  ],
+  "confidenza": 0.9,
+  "stato": "in_attesa",
+  "aggiunta": "2026-10-01"
+ },
+ {
   "tipo": "regola",
   "titolo": "lose vs miss: differenza d'uso",
   "spiegazione": "'lose' si usa per qualcosa che si aveva e non si ha più; 'miss' si usa quando si arriva tardi e si perde l'occasione, oppure quando si sente la mancanza di qualcuno/qualcosa.",
@@ -1206,6 +1220,38 @@
   "stato": "pubblicata"
  },
  {
+  "tipo": "espressione",
+  "direzione": "en>it",
+  "lemma": "lose your job",
+  "forma_prof": "You can also lose your job, in that case you can get fired or you can quit",
+  "traduzione": "perdere il lavoro",
+  "definizione": "non avere più il proprio impiego; può avvenire per licenziamento (get fired) o per dimissioni volontarie (quit)",
+  "esempi": [
+   "You can also lose your job; in that case you can get fired or you can quit."
+  ],
+  "blocchi": [
+   31
+  ],
+  "confidenza": 0.95,
+  "aggiunta": "2026-10-01"
+ },
+ {
+  "tipo": "coppia",
+  "direzione": "en>it",
+  "elementi": [
+   "get fired",
+   "quit"
+  ],
+  "forma_prof": "get fired or you can quit",
+  "traduzione": "essere licenziati / dare le dimissioni",
+  "differenza": "'Get fired' indica un licenziamento subito dal datore di lavoro; 'quit' indica la scelta volontaria del lavoratore di lasciare il posto.",
+  "blocchi": [
+   31
+  ],
+  "confidenza": 0.95,
+  "aggiunta": "2026-10-01"
+ },
+ {
   "tipo": "termine",
   "direzione": "en>it",
   "lemma": "to rub",
@@ -1217,6 +1263,18 @@
   ],
   "confidenza": 0.95,
   "stato": "pubblicata"
+ },
+ {
+  "tipo": "espressione",
+  "direzione": "en>it",
+  "lemma": "lose your faith",
+  "forma_prof": "you can lose your faith",
+  "traduzione": "perdere la fede",
+  "blocchi": [
+   32
+  ],
+  "confidenza": 0.9,
+  "aggiunta": "2026-10-01"
  },
  {
   "tipo": "espressione",
@@ -1243,11 +1301,28 @@
   "ipa": "reɪz",
   "variante": "AmE",
   "blocchi": [
-   33
+   33,
+   40
   ],
   "confidenza": 0.97,
   "stato": "pubblicata",
   "note": "MAIUSCOLO segnala che è la parola da imparare; corrisponde a 'pay rise' in BrE",
+  "aggiunta": "2026-10-01"
+ },
+ {
+  "tipo": "espressione",
+  "direzione": "en>it",
+  "lemma": "lose your touch",
+  "forma_prof": "lose your touch (when you are no longer good at something you used to be good at)",
+  "traduzione": "perdere il tocco, perdere la mano",
+  "definizione": "non essere più bravi in qualcosa in cui si eccelleva in passato",
+  "esempi": [
+   "Like a football player who used to be very talented."
+  ],
+  "blocchi": [
+   33
+  ],
+  "confidenza": 0.95,
   "aggiunta": "2026-10-01"
  },
  {
@@ -1272,6 +1347,26 @@
   "stato": "pubblicata",
   "divergenza": true,
   "note": "La traduzione della prof ('mi manca l'anima') è un'espressione colloquiale italiana molto intensa; 'to dread' copre uno spettro più ampio che va da forte apprensione a terrore. Segnalato divergenza."
+ },
+ {
+  "tipo": "espressione",
+  "direzione": "en>it",
+  "lemma": "lose your marbles",
+  "forma_prof": "Lose your marbles (biglie)",
+  "traduzione_prof": "biglie",
+  "traduzione": "perdere il lume della ragione, impazzire",
+  "definizione": "diventare molto confusi o agire in modo irrazionale, spesso a causa dello stress",
+  "esempi": [
+   "After managing five projects at once, she was starting to lose her marbles and couldn't keep track of anything."
+  ],
+  "blocchi": [
+   34,
+   35,
+   36
+  ],
+  "confidenza": 0.95,
+  "note": "La traduzione_prof 'biglie' è la glossa letterale di 'marbles'; il significato idiomatico è 'perdere la testa/ragione'.",
+  "aggiunta": "2026-10-01"
  },
  {
   "tipo": "coppia",
@@ -1357,6 +1452,29 @@
   "confidenza": 0.92,
   "stato": "pubblicata",
   "note": "Il blocco 43 contiene un refuso ('impossible' invece di 'impossibly'); normalizzato nell'esempio. Il blocco 42 ('my so called friend') sembra un esempio d'uso separato e non direttamente collegato."
+ },
+ {
+  "tipo": "coppia",
+  "direzione": "en>it",
+  "elementi": [
+   "lose",
+   "miss"
+  ],
+  "forma_prof": "To Miss / you can lose something that you had and no longer have / you can miss something when you arrive too late",
+  "traduzione": "perdere (qualcosa che si aveva) / mancare, perdere (per essere arrivati tardi o sentire la mancanza di qualcuno/qualcosa)",
+  "differenza": "'Lose' si usa quando si cessa di avere qualcosa che si possedeva. 'Miss' si usa sia quando si arriva troppo tardi per qualcosa (perdere un treno, un'occasione) sia quando si sente la mancanza di una persona o un luogo.",
+  "esempi": [
+   "I miss Canada.",
+   "I miss my friend Jane."
+  ],
+  "blocchi": [
+   37,
+   38,
+   39,
+   41
+  ],
+  "confidenza": 0.95,
+  "aggiunta": "2026-10-01"
  },
  {
   "tipo": "coppia",
