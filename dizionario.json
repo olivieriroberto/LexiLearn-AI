@@ -69,6 +69,21 @@
  {
   "tipo": "phrasal_verb",
   "direzione": "en>it",
+  "lemma": "to hold on",
+  "forma_prof": "To Hold on",
+  "traduzione": "aspettare, resistere, tenersi forte",
+  "definizione": "aspettare o aggrapparsi a qualcosa",
+  "ipa": "həʊld ɒn",
+  "blocchi": [
+   2
+  ],
+  "confidenza": 0.72,
+  "note": "Nessuna traduzione italiana fornita dalla prof; blocco al bordo superiore della finestra, potrebbe essere incompleto.",
+  "aggiunta": "2026-10-01"
+ },
+ {
+  "tipo": "phrasal_verb",
+  "direzione": "en>it",
   "lemma": "to end up",
   "forma_prof": "TO END UP - va a finire",
   "traduzione_prof": "va a finire",
@@ -119,6 +134,19 @@
   "stato": "pubblicata"
  },
  {
+  "tipo": "termine",
+  "direzione": "en>it",
+  "lemma": "to float",
+  "forma_prof": "To Float",
+  "traduzione_prof": "galleggiare",
+  "ipa": "fləʊt",
+  "blocchi": [
+   3
+  ],
+  "confidenza": 0.97,
+  "aggiunta": "2026-10-01"
+ },
+ {
   "tipo": "collocazione",
   "direzione": "en>it",
   "lemma": "backache",
@@ -135,6 +163,25 @@
   "confidenza": 0.95,
   "stato": "pubblicata",
   "note": "Il blocco mette in evidenza la struttura 'have a backache', probabilmente per sottolineare l'uso dell'articolo indeterminativo, diverso dall'italiano."
+ },
+ {
+  "tipo": "coppia",
+  "direzione": "en>it",
+  "elementi": [
+   "blind",
+   "the blinds"
+  ],
+  "forma_prof": "Blind / The blinds",
+  "traduzione_prof": "cieco",
+  "traduzione": "blind = cieco; the blinds = le veneziane / le tende a lamelle",
+  "differenza": "Stessa radice, ma 'blind' è aggettivo (cieco) mentre 'the blinds' è sostantivo plurale che indica le veneziane.",
+  "ipa": "blaɪnd",
+  "blocchi": [
+   4,
+   5
+  ],
+  "confidenza": 0.9,
+  "aggiunta": "2026-10-01"
  },
  {
   "tipo": "phrasal_verb",
@@ -215,6 +262,19 @@
   "stato": "pubblicata"
  },
  {
+  "tipo": "termine",
+  "direzione": "en>it",
+  "lemma": "color blind",
+  "forma_prof": "Color blind",
+  "traduzione": "daltonico",
+  "definizione": "incapace di distinguere alcuni colori",
+  "blocchi": [
+   6
+  ],
+  "confidenza": 0.97,
+  "aggiunta": "2026-10-01"
+ },
+ {
   "tipo": "coppia",
   "direzione": "en>it",
   "elementi": [
@@ -234,6 +294,19 @@
   ],
   "confidenza": 0.98,
   "stato": "pubblicata"
+ },
+ {
+  "tipo": "espressione",
+  "direzione": "en>it",
+  "lemma": "as blind as a bat",
+  "forma_prof": "To be as blind as a bat",
+  "traduzione": "cieco come una talpa",
+  "definizione": "espressione idiomatica per indicare una vista molto scarsa",
+  "blocchi": [
+   7
+  ],
+  "confidenza": 0.97,
+  "aggiunta": "2026-10-01"
  },
  {
   "tipo": "termine",
@@ -265,6 +338,19 @@
   ],
   "confidenza": 0.97,
   "stato": "pubblicata"
+ },
+ {
+  "tipo": "espressione",
+  "direzione": "en>it",
+  "lemma": "to set someone up with a date",
+  "forma_prof": "To Set someone up with a date",
+  "traduzione": "combinare un appuntamento a qualcuno",
+  "definizione": "organizzare un incontro romantico per qualcun altro",
+  "blocchi": [
+   8
+  ],
+  "confidenza": 0.95,
+  "aggiunta": "2026-10-01"
  },
  {
   "tipo": "termine",
@@ -312,6 +398,19 @@
   "note": "il blocco introduce anche 'trunk' (tronco) e 'leaves' (foglie) come campo semantico dell'albero"
  },
  {
+  "tipo": "termine",
+  "direzione": "en>it",
+  "lemma": "blind date",
+  "forma_prof": "a blind date",
+  "traduzione": "appuntamento al buio",
+  "definizione": "appuntamento romantico tra due persone che non si conoscono",
+  "blocchi": [
+   9
+  ],
+  "confidenza": 0.97,
+  "aggiunta": "2026-10-01"
+ },
+ {
   "tipo": "coppia",
   "direzione": "en>it",
   "elementi": [
@@ -329,6 +428,25 @@
   ],
   "confidenza": 0.98,
   "stato": "pubblicata"
+ },
+ {
+  "tipo": "coppia",
+  "direzione": "en>it",
+  "elementi": [
+   "deaf",
+   "death"
+  ],
+  "forma_prof": "deaf - (death) def",
+  "traduzione_prof": "def",
+  "traduzione": "deaf = sordo; death = morte",
+  "differenza": "Parole simili per grafia e pronuncia ma significato completamente diverso: deaf /dɛf/ = sordo; death /dɛθ/ = morte.",
+  "ipa": "dɛf / dɛθ",
+  "blocchi": [
+   10
+  ],
+  "confidenza": 0.92,
+  "note": "La prof mette 'death' tra parentesi accanto a 'deaf', segnalando la confondibilità tra le due parole.",
+  "aggiunta": "2026-10-01"
  },
  {
   "tipo": "espressione",
@@ -365,6 +483,19 @@
   "note": "la prof ha elencato i due termini senza spiegazione esplicita; il contesto meccanico (chiave inglese nei blocchi precedenti) suggerisce il significato; confidenza leggermente ridotta per mancanza di glossa"
  },
  {
+  "tipo": "termine",
+  "direzione": "en>it",
+  "lemma": "to limp",
+  "forma_prof": "To Limp",
+  "traduzione_prof": "zoppicare",
+  "ipa": "lɪmp",
+  "blocchi": [
+   11
+  ],
+  "confidenza": 0.97,
+  "aggiunta": "2026-10-01"
+ },
+ {
   "tipo": "coppia",
   "direzione": "en>it",
   "elementi": [
@@ -380,6 +511,24 @@
   ],
   "confidenza": 0.95,
   "stato": "pubblicata"
+ },
+ {
+  "tipo": "collocazione",
+  "direzione": "en>it",
+  "lemma": "bitter",
+  "forma_prof": "he is probably BITTER",
+  "traduzione": "amareggiato, pieno di rancore",
+  "definizione": "BITTER in questo contesto indica uno stato d'animo di amarezza o risentimento, non il sapore amaro.",
+  "esempi": [
+   "He is probably bitter — he lost a leg in the accident."
+  ],
+  "blocchi": [
+   12,
+   13
+  ],
+  "confidenza": 0.93,
+  "note": "Il MAIUSCOLO su BITTER segnala che la prof sta insegnando questo aggettivo nel significato traslato di 'amareggiato/risentito', da non confondere con il gusto amaro.",
+  "aggiunta": "2026-10-01"
  },
  {
   "tipo": "espressione",
@@ -410,6 +559,34 @@
   ],
   "confidenza": 0.98,
   "stato": "pubblicata"
+ },
+ {
+  "tipo": "espressione",
+  "direzione": "en>it",
+  "lemma": "to lose",
+  "forma_prof": "lose:",
+  "traduzione": "perdere",
+  "definizione": "verbo usato con una vasta gamma di sostantivi per indicare la perdita di qualcosa (fisico o astratto)",
+  "esempi": [
+   "lose your hair — perdere i capelli",
+   "lose your sight — perdere la vista",
+   "lose a tooth / teeth — perdere un dente / i denti",
+   "lose 8 fingers / two thumbs — perdere le dita",
+   "lose your patience — perdere la pazienza",
+   "lose your temper — perdere le staffe"
+  ],
+  "blocchi": [
+   14,
+   15,
+   16,
+   17,
+   18,
+   25,
+   26
+  ],
+  "confidenza": 0.96,
+  "note": "La prof elenca collocazioni tipiche di 'lose' con parti del corpo e stati emotivi.",
+  "aggiunta": "2026-10-01"
  },
  {
   "tipo": "termine",
@@ -529,6 +706,24 @@
   "stato": "pubblicata"
  },
  {
+  "tipo": "coppia",
+  "direzione": "en>it",
+  "elementi": [
+   "finger",
+   "thumb"
+  ],
+  "forma_prof": "8 fingers / two thumbs (thums)",
+  "traduzione": "finger = dito (non pollice); thumb = pollice",
+  "differenza": "In inglese il pollice non è un 'finger': si dice 'thumb'. Le altre dita sono 'fingers'.",
+  "ipa": "fɪŋɡər / θʌm",
+  "blocchi": [
+   18
+  ],
+  "confidenza": 0.93,
+  "note": "'thums' è refuso per 'thumbs'.",
+  "aggiunta": "2026-10-01"
+ },
+ {
   "tipo": "espressione",
   "direzione": "en>it",
   "lemma": "as I've said / mentioned",
@@ -558,6 +753,20 @@
   "stato": "pubblicata"
  },
  {
+  "tipo": "espressione",
+  "direzione": "en>it",
+  "lemma": "to be all thumbs",
+  "forma_prof": "she is all thumbs",
+  "traduzione_prof": "maldestra",
+  "traduzione": "essere maldestro/a, avere le mani di pastafrolla",
+  "definizione": "espressione idiomatica per indicare una persona goffa o poco abile con le mani",
+  "blocchi": [
+   19
+  ],
+  "confidenza": 0.97,
+  "aggiunta": "2026-10-01"
+ },
+ {
   "tipo": "coppia",
   "direzione": "en>it",
   "elementi": [
@@ -577,6 +786,19 @@
   "note": "il blocco 21 introduce 'a dressing' come termine correlato (il condimento)"
  },
  {
+  "tipo": "espressione",
+  "direzione": "en>it",
+  "lemma": "thumbs up",
+  "forma_prof": "thumbs up",
+  "traduzione": "pollice su, approvazione",
+  "definizione": "gesto o espressione di approvazione o consenso",
+  "blocchi": [
+   20
+  ],
+  "confidenza": 0.95,
+  "aggiunta": "2026-10-01"
+ },
+ {
   "tipo": "coppia",
   "direzione": "en>it",
   "elementi": [
@@ -591,6 +813,38 @@
   "confidenza": 0.82,
   "stato": "pubblicata",
   "note": "probabilmente citati per contrasto fonetico o ortografico; contesto non esplicitato negli appunti"
+ },
+ {
+  "tipo": "termine",
+  "direzione": "en>it",
+  "lemma": "toe",
+  "forma_prof": "ten toes",
+  "traduzione": "dito del piede",
+  "definizione": "dito del piede, distinto da 'finger' (dito della mano)",
+  "ipa": "təʊ",
+  "blocchi": [
+   21
+  ],
+  "confidenza": 0.92,
+  "aggiunta": "2026-10-01"
+ },
+ {
+  "tipo": "coppia",
+  "direzione": "en>it",
+  "elementi": [
+   "nail",
+   "chiodo"
+  ],
+  "forma_prof": "nail - unghia / chiodo",
+  "traduzione_prof": "unghia / chiodo",
+  "traduzione": "nail = unghia (dito) / chiodo (da martello)",
+  "differenza": "La stessa parola inglese 'nail' copre sia 'unghia' sia 'chiodo'.",
+  "ipa": "neɪl",
+  "blocchi": [
+   22
+  ],
+  "confidenza": 0.97,
+  "aggiunta": "2026-10-01"
  },
  {
   "tipo": "collocazione",
@@ -671,6 +925,42 @@
   "vedi_anche": "to turn on/to light"
  },
  {
+  "tipo": "espressione",
+  "direzione": "en>it",
+  "lemma": "to fall head over heels",
+  "forma_prof": "he fell head over heels",
+  "traduzione": "innamorarsi perdutamente / cadere a capofitto",
+  "definizione": "espressione idiomatica che indica cadere follemente innamorati (o, letteralmente, fare una capriola)",
+  "esempi": [
+   "he fell head over heels — you lose your head / mind"
+  ],
+  "blocchi": [
+   24
+  ],
+  "confidenza": 0.9,
+  "note": "La prof affianca 'head over heels' a 'lose your head/mind', suggerendo che entrambe le espressioni evocano la perdita del controllo razionale per amore.",
+  "aggiunta": "2026-10-01"
+ },
+ {
+  "tipo": "espressione",
+  "direzione": "en>it",
+  "lemma": "head over heels",
+  "forma_prof": "he fell head over heels",
+  "traduzione_prof": "you lose your head / mind",
+  "traduzione": "perdere la testa (innamorarsi perdutamente)",
+  "definizione": "essere follemente innamorati o travolti da un'emozione",
+  "esempi": [
+   "he fell head over heels"
+  ],
+  "blocchi": [
+   24
+  ],
+  "confidenza": 0.9,
+  "stato": "pubblicata",
+  "note": "il blocco 24 accosta 'fell head over heels' e 'lose your head/mind'; la prof li usa come illustrazioni dello stesso campo semantico del 'perdere il controllo/la testa'",
+  "aggiunta": "2026-10-01"
+ },
+ {
   "tipo": "coppia",
   "direzione": "en>it",
   "elementi": [
@@ -691,6 +981,61 @@
   ],
   "confidenza": 0.97,
   "stato": "pubblicata"
+ },
+ {
+  "tipo": "espressione",
+  "direzione": "en>it",
+  "lemma": "to lose one's patience",
+  "forma_prof": "your patience",
+  "traduzione": "perdere la pazienza",
+  "definizione": "esaurire la propria capacità di tollerare una situazione",
+  "blocchi": [
+   25
+  ],
+  "confidenza": 0.95,
+  "aggiunta": "2026-10-01"
+ },
+ {
+  "tipo": "collocazione",
+  "direzione": "en>it",
+  "lemma": "lose your patience",
+  "forma_prof": "your patience",
+  "traduzione": "perdere la pazienza",
+  "definizione": "collocazione con 'lose': perdere la pazienza",
+  "blocchi": [
+   25
+  ],
+  "confidenza": 0.85,
+  "stato": "pubblicata",
+  "note": "blocco breve, fa parte di un elenco di collocazioni con 'lose' (blocchi 24-29)",
+  "aggiunta": "2026-10-01"
+ },
+ {
+  "tipo": "espressione",
+  "direzione": "en>it",
+  "lemma": "to lose one's temper",
+  "forma_prof": "your temper",
+  "traduzione": "perdere le staffe, arrabbiarsi",
+  "definizione": "perdere il controllo della propria rabbia",
+  "blocchi": [
+   26
+  ],
+  "confidenza": 0.95,
+  "aggiunta": "2026-10-01"
+ },
+ {
+  "tipo": "collocazione",
+  "direzione": "en>it",
+  "lemma": "lose your temper",
+  "forma_prof": "your temper",
+  "traduzione": "perdere le staffe / arrabbiarsi",
+  "definizione": "collocazione con 'lose': perdere il controllo della propria rabbia",
+  "blocchi": [
+   26
+  ],
+  "confidenza": 0.95,
+  "stato": "pubblicata",
+  "aggiunta": "2026-10-01"
  },
  {
   "tipo": "coppia",
@@ -729,6 +1074,34 @@
   "stato": "pubblicata"
  },
  {
+  "tipo": "collocazione",
+  "direzione": "en>it",
+  "lemma": "lose your cool",
+  "forma_prof": "your cool",
+  "traduzione": "perdere la calma",
+  "definizione": "collocazione con 'lose': perdere la calma, scaldarsi",
+  "blocchi": [
+   27
+  ],
+  "confidenza": 0.95,
+  "stato": "pubblicata",
+  "aggiunta": "2026-10-01"
+ },
+ {
+  "tipo": "collocazione",
+  "direzione": "en>it",
+  "lemma": "lose your health",
+  "forma_prof": "your health",
+  "traduzione": "perdere la salute",
+  "definizione": "collocazione con 'lose': rovinare la propria salute",
+  "blocchi": [
+   28
+  ],
+  "confidenza": 0.9,
+  "stato": "pubblicata",
+  "aggiunta": "2026-10-01"
+ },
+ {
   "tipo": "coppia",
   "direzione": "en>it",
   "elementi": [
@@ -760,6 +1133,20 @@
   "note": "Il contesto (blocco precedente su turn someone on) suggerisce il significato fisico/estetico, ma la prof non ha esplicitato; confidenza moderata."
  },
  {
+  "tipo": "collocazione",
+  "direzione": "en>it",
+  "lemma": "lose time",
+  "forma_prof": "time",
+  "traduzione": "perdere tempo",
+  "definizione": "collocazione con 'lose': sprecare o perdere del tempo",
+  "blocchi": [
+   29
+  ],
+  "confidenza": 0.9,
+  "stato": "pubblicata",
+  "aggiunta": "2026-10-01"
+ },
+ {
   "tipo": "coppia",
   "direzione": "en>it",
   "elementi": [
@@ -782,6 +1169,28 @@
   ],
   "confidenza": 0.92,
   "stato": "pubblicata"
+ },
+ {
+  "tipo": "regola",
+  "titolo": "lose vs miss: differenza d'uso",
+  "spiegazione": "'lose' si usa per qualcosa che si aveva e non si ha più; 'miss' si usa quando si arriva tardi e si perde l'occasione, oppure quando si sente la mancanza di qualcuno/qualcosa.",
+  "esempi": [
+   "you can lose something that you had and no longer have",
+   "you can miss something when you arrive too late",
+   "I miss Canada / my friend Jane",
+   "She wrote TO me and told me"
+  ],
+  "blocchi": [
+   30,
+   31,
+   32,
+   33,
+   34,
+   35
+  ],
+  "confidenza": 0.98,
+  "stato": "pubblicata",
+  "aggiunta": "2026-10-01"
  },
  {
   "tipo": "termine",
@@ -824,17 +1233,22 @@
   "note": "Blocco senza contesto aggiuntivo; potrebbe essere un esempio di 'to dread' o una voce autonoma. Confidenza media."
  },
  {
-  "tipo": "regola",
-  "titolo": "Modal verbs: could / should / would",
-  "spiegazione": "Tre dei principali verbi modali inglesi. Potrebbero essere stati introdotti come argomento da sviluppare nella lezione.",
+  "tipo": "termine",
+  "direzione": "en>it",
+  "lemma": "raise",
+  "forma_prof": "A RAISE - aumento",
+  "traduzione_prof": "aumento",
+  "traduzione": "aumento di stipendio",
+  "definizione": "aumento salariale (uso americano; in BrE 'a pay rise')",
+  "ipa": "reɪz",
+  "variante": "AmE",
   "blocchi": [
-   33,
-   34,
-   35
+   33
   ],
-  "confidenza": 0.4,
+  "confidenza": 0.97,
   "stato": "pubblicata",
-  "note": "I blocchi sono solo tre parole isolate; il contesto didattico è incompleto. Probabilmente la prof li ha elencati come argomento da trattare. Confidenza bassa."
+  "note": "MAIUSCOLO segnala che è la parola da imparare; corrisponde a 'pay rise' in BrE",
+  "aggiunta": "2026-10-01"
  },
  {
   "tipo": "termine",
@@ -858,6 +1272,27 @@
   "stato": "pubblicata",
   "divergenza": true,
   "note": "La traduzione della prof ('mi manca l'anima') è un'espressione colloquiale italiana molto intensa; 'to dread' copre uno spettro più ampio che va da forte apprensione a terrore. Segnalato divergenza."
+ },
+ {
+  "tipo": "coppia",
+  "direzione": "en>it",
+  "elementi": [
+   "blind",
+   "deaf",
+   "mute"
+  ],
+  "forma_prof": "blind / deaf / mute",
+  "traduzione": "cieco / sordo / muto",
+  "definizione": "tre aggettivi per descrivere la perdita o assenza di un senso o della voce",
+  "differenza": "'blind' = non vede; 'deaf' = non sente; 'mute' = non parla",
+  "blocchi": [
+   36,
+   37
+  ],
+  "confidenza": 0.92,
+  "stato": "pubblicata",
+  "note": "il blocco 37 ('you were muted') illustra 'mute' in contesto moderno (microfono spento)",
+  "aggiunta": "2026-10-01"
  },
  {
   "tipo": "regola",
@@ -927,6 +1362,30 @@
   "tipo": "coppia",
   "direzione": "en>it",
   "elementi": [
+   "go back",
+   "come back"
+  ],
+  "forma_prof": "She went back (t work?) / she came back home late",
+  "traduzione": "tornare (verso là) / tornare (verso qui)",
+  "definizione": "'go back' indica movimento verso un luogo lontano dal parlante; 'come back' indica movimento verso il parlante",
+  "differenza": "'go back' = allontanarsi tornando altrove; 'come back' = tornare verso chi parla",
+  "esempi": [
+   "She went back to work",
+   "she came back home late"
+  ],
+  "blocchi": [
+   38,
+   39
+  ],
+  "confidenza": 0.85,
+  "stato": "pubblicata",
+  "note": "blocco 38 ha un probabile refuso '(t work?)' normalizzato in 'to work'",
+  "aggiunta": "2026-10-01"
+ },
+ {
+  "tipo": "coppia",
+  "direzione": "en>it",
+  "elementi": [
    "noise",
    "nose"
   ],
@@ -937,6 +1396,21 @@
   ],
   "confidenza": 0.95,
   "stato": "pubblicata"
+ },
+ {
+  "tipo": "termine",
+  "direzione": "en>it",
+  "lemma": "to greet",
+  "forma_prof": "to greet",
+  "traduzione": "salutare",
+  "definizione": "accogliere o salutare qualcuno",
+  "ipa": "ɡriːt",
+  "blocchi": [
+   40
+  ],
+  "confidenza": 0.97,
+  "stato": "pubblicata",
+  "aggiunta": "2026-10-01"
  },
  {
   "tipo": "termine",
@@ -982,6 +1456,20 @@
  },
  {
   "tipo": "espressione",
+  "lemma": "to shake hands",
+  "forma_prof": "To Shake hands",
+  "traduzione": "stringere la mano",
+  "definizione": "Gesto di saluto o accordo in cui due persone si stringono la mano",
+  "blocchi": [
+   41,
+   335
+  ],
+  "confidenza": 0.97,
+  "stato": "pubblicata",
+  "direzione": "en>it"
+ },
+ {
+  "tipo": "espressione",
   "direzione": "en>it",
   "lemma": "so-called",
   "forma_prof": "my so call friend",
@@ -997,6 +1485,20 @@
   "confidenza": 0.85,
   "stato": "pubblicata",
   "note": "Refuso nella forma_prof: 'so call' invece di 'so-called'. Blocco isolato, potrebbe essere un esempio di 'nosey' piuttosto che una voce autonoma, ma l'espressione merita estrazione separata."
+ },
+ {
+  "tipo": "espressione",
+  "direzione": "en>it",
+  "lemma": "say hi",
+  "forma_prof": "say hi",
+  "traduzione": "dire ciao",
+  "definizione": "saluto informale verbale",
+  "blocchi": [
+   42
+  ],
+  "confidenza": 0.95,
+  "stato": "pubblicata",
+  "aggiunta": "2026-10-01"
  },
  {
   "tipo": "espressione",
@@ -1023,6 +1525,21 @@
  {
   "tipo": "termine",
   "direzione": "en>it",
+  "lemma": "to wave",
+  "forma_prof": "to wave",
+  "traduzione": "fare un cenno con la mano / salutare agitando la mano",
+  "definizione": "salutare o richiamare l'attenzione agitando la mano",
+  "ipa": "weɪv",
+  "blocchi": [
+   43
+  ],
+  "confidenza": 0.97,
+  "stato": "pubblicata",
+  "aggiunta": "2026-10-01"
+ },
+ {
+  "tipo": "termine",
+  "direzione": "en>it",
   "lemma": "to annoy",
   "forma_prof": "TO ANNOY",
   "traduzione_prof": "infastidire",
@@ -1033,6 +1550,96 @@
   "confidenza": 0.99,
   "stato": "pubblicata",
   "note": "Blocco in coda alla finestra, potrebbe continuare nel gruppo successivo. Confidenza leggermente ridotta."
+ },
+ {
+  "tipo": "espressione",
+  "direzione": "en>it",
+  "lemma": "make waves",
+  "forma_prof": "she makes waves",
+  "traduzione": "fare scalpore / creare scompiglio",
+  "definizione": "fare scalpore, destare clamore o provocare reazioni",
+  "esempi": [
+   "she makes waves"
+  ],
+  "blocchi": [
+   44
+  ],
+  "confidenza": 0.9,
+  "stato": "pubblicata",
+  "note": "la prof introduce l'espressione idiomatica subito dopo 'to wave' (blocco 43) per mostrare il salto di significato",
+  "aggiunta": "2026-10-01"
+ },
+ {
+  "tipo": "coppia",
+  "direzione": "en>it",
+  "elementi": [
+   "polite",
+   "impolite"
+  ],
+  "forma_prof": "polite - IMpolite",
+  "traduzione": "educato / maleducato",
+  "definizione": "coppia di antonimi; il prefisso IM- nega l'aggettivo",
+  "differenza": "'polite' = buone maniere; 'impolite' = maleducato, scortese; sinonimo di 'rude'",
+  "esempi": [
+   "you are very polite (good manners) / rude"
+  ],
+  "blocchi": [
+   45,
+   46
+  ],
+  "confidenza": 0.98,
+  "stato": "pubblicata",
+  "aggiunta": "2026-10-01"
+ },
+ {
+  "tipo": "coppia",
+  "direzione": "en>it",
+  "elementi": [
+   "polite",
+   "rude"
+  ],
+  "traduzione_prof": "polite (good manners) / rude",
+  "differenza": "polite significa educato, con buone maniere; rude significa scortese, maleducato",
+  "blocchi": [
+   45
+  ],
+  "confidenza": 0.95,
+  "stato": "pubblicata",
+  "aggiunta": "2026-10-01"
+ },
+ {
+  "tipo": "espressione",
+  "direzione": "en>it",
+  "lemma": "run in the family",
+  "forma_prof": "Politeness / Beauty runs in the family",
+  "traduzione": "essere di famiglia, essere una caratteristica ereditaria",
+  "definizione": "indicare che una qualità o caratteristica è comune a tutti i membri di una famiglia",
+  "esempi": [
+   "Politeness runs in the family",
+   "Beauty runs in the family"
+  ],
+  "blocchi": [
+   47
+  ],
+  "confidenza": 0.9,
+  "stato": "pubblicata",
+  "aggiunta": "2026-10-01"
+ },
+ {
+  "tipo": "phrasal_verb",
+  "direzione": "en>it",
+  "lemma": "hand out",
+  "traduzione": "distribuire",
+  "definizione": "distribuire qualcosa a più persone",
+  "blocchi": [
+   48,
+   49,
+   50
+  ],
+  "confidenza": 0.9,
+  "stato": "pubblicata",
+  "note": "il blocco 48 introduce il verbo base 'to hand', il 49 il phrasal 'to hand out', il 50 fornisce l'oggetto tipico 'flyers' (volantini)",
+  "aggiunta": "2026-10-01"
  },
  {
   "tipo": "termine",
@@ -1091,6 +1698,33 @@
   "stato": "pubblicata"
  },
  {
+  "tipo": "termine",
+  "direzione": "en>it",
+  "lemma": "flyers",
+  "traduzione": "volantini",
+  "definizione": "fogli pubblicitari distribuiti a mano",
+  "ipa": "ˈflaɪərz",
+  "blocchi": [
+   50
+  ],
+  "confidenza": 0.9,
+  "stato": "pubblicata",
+  "aggiunta": "2026-10-01"
+ },
+ {
+  "tipo": "phrasal_verb",
+  "direzione": "en>it",
+  "lemma": "hand in",
+  "traduzione": "consegnare, riconsegnare",
+  "definizione": "consegnare qualcosa a qualcuno in posizione di autorità",
+  "blocchi": [
+   51
+  ],
+  "confidenza": 0.9,
+  "stato": "pubblicata",
+  "aggiunta": "2026-10-01"
+ },
+ {
   "tipo": "espressione",
   "direzione": "en>it",
   "lemma": "bored stiff",
@@ -1138,6 +1772,21 @@
   ],
   "confidenza": 0.93,
   "stato": "pubblicata"
+ },
+ {
+  "tipo": "lettura",
+  "titolo": "Dialogo al controllo passaporti",
+  "blocchi": [
+   54,
+   55
+  ],
+  "espressioni_evidenziate": [
+   "greeted"
+  ],
+  "confidenza": 0.9,
+  "stato": "pubblicata",
+  "note": "Il blocco 55 è la continuazione del dialogo con le varianti di saluto formale (sir / sirs / gentlemen)",
+  "aggiunta": "2026-10-01"
  },
  {
   "tipo": "collocazione",
@@ -1204,6 +1853,22 @@
   "stato": "pubblicata"
  },
  {
+  "tipo": "coppia",
+  "direzione": "en>it",
+  "elementi": [
+   "here it is",
+   "here you are"
+  ],
+  "forma_prof": "here IT is / here YOU are",
+  "differenza": "'here it is' si usa quando si porge un oggetto riferendosi all'oggetto stesso; 'here you are' è la formula più comune per porgere qualcosa a qualcuno",
+  "blocchi": [
+   56
+  ],
+  "confidenza": 0.9,
+  "stato": "pubblicata",
+  "aggiunta": "2026-10-01"
+ },
+ {
   "tipo": "espressione",
   "direzione": "en>it",
   "lemma": "such as",
@@ -1234,6 +1899,19 @@
   ],
   "confidenza": 0.92,
   "stato": "pubblicata"
+ },
+ {
+  "tipo": "espressione",
+  "direzione": "en>it",
+  "lemma": "here I am",
+  "traduzione_prof": "eccomi",
+  "definizione": "formula per segnalare la propria presenza o il proprio arrivo",
+  "blocchi": [
+   57
+  ],
+  "confidenza": 0.9,
+  "stato": "pubblicata",
+  "aggiunta": "2026-10-01"
  },
  {
   "tipo": "espressione",
@@ -3624,19 +4302,6 @@
    334
   ],
   "confidenza": 0.95,
-  "stato": "pubblicata",
-  "direzione": "en>it"
- },
- {
-  "tipo": "espressione",
-  "lemma": "to shake hands",
-  "forma_prof": "To Shake hands",
-  "traduzione": "stringere la mano",
-  "definizione": "Gesto di saluto o accordo in cui due persone si stringono la mano",
-  "blocchi": [
-   335
-  ],
-  "confidenza": 0.92,
   "stato": "pubblicata",
   "direzione": "en>it"
  },
